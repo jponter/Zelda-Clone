@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f5b319d57f51894392e0c0f15fe27c0, type: 3}
+  m_Name: Always Magic
+  m_EditorClassIdentifier: 
+  loots:
+  - thisLoot: {fileID: 366008976932651951, guid: 5352fb761d972944ba4dbec46ceaf7bc,
+      type: 3}
+    lootChance: 100
