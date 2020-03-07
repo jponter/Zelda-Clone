@@ -33,8 +33,18 @@ public class PlayerMovement : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
 
+    [Header("Projectile Stuff")]
     public GameObject projectile;
-   
+    public Item bowItem;
+
+    [Header("iFrame Stuff")]
+    public Color flashColor;
+    public Color regularColor;
+    public float flashDuration;
+    public int numberOfFlashes;
+    public Collider2D triggerCollider;
+    public SpriteRenderer mySrpite;
+
 
     // Start is called before the first frame update
     void Start()
@@ -114,7 +124,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //screen shake
             //playerHit.Raise();
-
+            StartCoroutine(FlashCo());
             yield return new WaitForSeconds(knockTime);
             myRigidBody.velocity = Vector2.zero;
             currentState = PlayerState.idle;
@@ -122,6 +132,23 @@ public class PlayerMovement : MonoBehaviour
 
         }
     }
+
+    private IEnumerator FlashCo()
+    {
+        int temp = 0;
+        triggerCollider.enabled = false;
+        while( temp < numberOfFlashes)
+        {
+            mySrpite.color = flashColor;
+            yield return new WaitForSeconds(flashDuration);
+            mySrpite.color = regularColor;
+            yield return new WaitForSeconds(flashDuration);
+            temp++;
+        }
+
+        triggerCollider.enabled = true;
+    }
+
 
     private IEnumerator AttackCo()
     {
@@ -142,17 +169,24 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator SecondAttackCo()
     {
         Debug.Log("SecondAttackCo()");
-        //animator.SetBool("attacking", true);
-        currentState = PlayerState.attack;
-        yield return null;
-        MakeArrow();
-        //animator.SetBool("attacking", false);
-        yield return new WaitForSeconds(0.33f);
 
-        if (currentState != PlayerState.interact)
+        if (playerInventory.CheckForItem(bowItem)) //only fire if we have the BOW
         {
-            currentState = PlayerState.walk;
+
+
+            //animator.SetBool("attacking", true);
+            currentState = PlayerState.attack;
+            yield return null;
+            MakeArrow();
+            //animator.SetBool("attacking", false);
+            yield return new WaitForSeconds(0.33f);
+
+            if (currentState != PlayerState.interact)
+            {
+                currentState = PlayerState.walk;
+            }
         }
+        else { Debug.Log("No Bow!"); }
     }
 
     private void MakeArrow()
@@ -201,6 +235,10 @@ public class PlayerMovement : MonoBehaviour
         if (change != Vector3.zero)
         {
             MoveCharacter();
+            //round out move.x and move.y to give finite values to the animation states (8 states)
+            change.x = Mathf.Round(change.x);
+            change.y = Mathf.Round(change.y);
+
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
             animator.SetBool("moving", true);

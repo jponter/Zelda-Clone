@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 02c05b583d46ece418d1e7d64c0df521, type: 3}
-    totalSpriteSurfaceArea: 664309
+    totalSpriteSurfaceArea: 1144805
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1378,6 +1378,7 @@ SpriteAtlas:
   - {fileID: -8041784067552993899, guid: 4fa562a38dee5da4faa4c15bfce06e2f, type: 3}
   - {fileID: 1532286108747742640, guid: 4fa562a38dee5da4faa4c15bfce06e2f, type: 3}
   - {fileID: 147799070741053269, guid: 4fa562a38dee5da4faa4c15bfce06e2f, type: 3}
+  - {fileID: 21300000, guid: fce22354ca5718942b2bf5106ee6fc47, type: 3}
   - {fileID: 21300000, guid: 48960ec40b1c6f545824649b4fe4d9e5, type: 3}
   - {fileID: -1898101141213099369, guid: 271fd2958d5b7df45a9f8a34051ad611, type: 3}
   - {fileID: 7927429830950459127, guid: 271fd2958d5b7df45a9f8a34051ad611, type: 3}
@@ -3239,6 +3240,7 @@ SpriteAtlas:
   - modified gfx melee sprites_1
   - modified gfx melee sprites_2
   - modified gfx melee sprites_3
+  - menu background
   - door2
   - orge_10
   - orge_11

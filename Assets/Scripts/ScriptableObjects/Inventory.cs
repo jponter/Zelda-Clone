@@ -20,12 +20,27 @@ public class Inventory : ScriptableObject
     public void OnEnable()
     {
         currentMagic = maxMagic;
+        
+        //reset coins to zero
+        //coins = 0;
     }
 
     public void ReduceMagic(float magicCost)
     {
         currentMagic -= magicCost;
     }
+
+    public bool CheckForItem(Item item)
+    {
+        if (items.Contains(item))
+        {
+            return true;
+        }
+        else {
+            return false; 
+        }
+    }
+
 
     public void AddItem(Item itemToAdd)
     {

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6469486534523092458}
   - component: {fileID: 7857125382364469844}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ContextClue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 2
   m_Sprite: {fileID: 8387997009269029421, guid: d844d6164e3eed4439ce57e58506757e,
     type: 3}
@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 4669582188810992933}
   - component: {fileID: 7146982739360269239}
   - component: {fileID: 5622779561212281865}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ReceivedItem
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -151,7 +151,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 7027700687736773762}
   - component: {fileID: 7027700687736773761}
   - component: {fileID: 7027700687736773760}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: up hit box
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -286,7 +286,8 @@ GameObject:
   - component: {fileID: 7027700688325560282}
   - component: {fileID: 1160593435}
   - component: {fileID: 1160593437}
-  m_Layer: 0
+  - component: {fileID: 2003624549}
+  m_Layer: 12
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -350,7 +351,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 7152930139536384079, guid: 0ab7cf702ce64984eba3b440160591da,
     type: 3}
@@ -427,9 +428,14 @@ MonoBehaviour:
   speed: 6
   currentHealth: {fileID: 11400000, guid: e825c1ab5ab631d4da701a84a221c8f9, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 7ccb2e2caffc9a140b196f32b024150d, type: 2}
+  playerHit: {fileID: 11400000, guid: 278c1124a5761954c8b49ec7bcea604b, type: 2}
+  reduceMagic: {fileID: 11400000, guid: 9a63c2014d6682d4abc549661d351e49, type: 2}
   startingPosition: {fileID: 11400000, guid: d5be81b6e24f9c148ad2cffb0aa806aa, type: 2}
   playerInventory: {fileID: 11400000, guid: 9301115745f619541bba71b835feead8, type: 2}
   receivedItemSprite: {fileID: 7146982739360269239}
+  projectile: {fileID: 2473682782467921981, guid: a1af20abf21b2974e97452f6b69bb2ba,
+    type: 3}
+  bowItem: {fileID: 11400000, guid: 5fd7a57a962de0f4ba8e24c043c1c499, type: 2}
 --- !u!95 &7027700688325560283
 Animator:
   serializedVersion: 3
@@ -515,6 +521,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   contextClue: {fileID: 4603913761550591217}
+--- !u!114 &2003624549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7027700688325560273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd438dd108a0f284aa931a2da434f1d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_RawSignal: {fileID: 11400000, guid: a6ce4db09be1b074da5f02c48344a922, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.1
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 1000
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 768
+  m_IgnoreTag: 
+  m_UseImpactDirection: 0
+  m_ScaleImpactWithMass: 0
+  m_ScaleImpactWithSpeed: 0
 --- !u!1 &7027700688582385901
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,7 +580,7 @@ GameObject:
   - component: {fileID: 7027700688582385900}
   - component: {fileID: 7027700688582385907}
   - component: {fileID: 7027700688582385906}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: right hit box
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -603,7 +657,7 @@ GameObject:
   - component: {fileID: 7027700689310969038}
   - component: {fileID: 7027700689310969037}
   - component: {fileID: 7027700689310969036}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: left hit box
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -681,7 +735,7 @@ GameObject:
   - component: {fileID: 7027700689375231919}
   - component: {fileID: 7027700689375231918}
   - component: {fileID: 7027700689375231917}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: down hit box
   m_TagString: Player
   m_Icon: {fileID: 0}
