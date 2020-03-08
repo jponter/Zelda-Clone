@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07717205f78afd548a224ef574f79f86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentState: 0
+  currentState: 4
   speed: 6
   currentHealth: {fileID: 11400000, guid: e825c1ab5ab631d4da701a84a221c8f9, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 7ccb2e2caffc9a140b196f32b024150d, type: 2}
@@ -436,6 +436,12 @@ MonoBehaviour:
   projectile: {fileID: 2473682782467921981, guid: a1af20abf21b2974e97452f6b69bb2ba,
     type: 3}
   bowItem: {fileID: 11400000, guid: 5fd7a57a962de0f4ba8e24c043c1c499, type: 2}
+  flashColor: {r: 1, g: 0, b: 0, a: 0.5176471}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.07
+  numberOfFlashes: 4
+  triggerCollider: {fileID: 7027700688325560282}
+  mySrpite: {fileID: 7027700688325560272}
 --- !u!95 &7027700688325560283
 Animator:
   serializedVersion: 3

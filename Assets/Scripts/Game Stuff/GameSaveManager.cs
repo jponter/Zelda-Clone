@@ -1,5 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 
 public class GameSaveManager : MonoBehaviour
@@ -25,6 +27,71 @@ public class GameSaveManager : MonoBehaviour
 
         DontDestroyOnLoad(this);
     }
+
+
+    private void OnEnable()
+    {
+        LoadScriptables();
+    }
+
+    private void OnDisable()
+    {
+        SaveScriptables();
+    }
+
+
+    public void SaveScriptables()
+    {
+        Debug.Log("Saving to: " + Application.persistentDataPath);
+
+        for (int i = 0; i < objects.Count; i++)
+        {
+            //open a file
+            FileStream file = File.Create(Application.persistentDataPath +
+                string.Format($"/{i}.dat"));
+
+            //create a binary formatter
+            BinaryFormatter binary = new BinaryFormatter();
+
+            //format the object as json
+            var json = JsonUtility.ToJson(objects[i]);
+
+            //write to the file
+            binary.Serialize(file, json);
+
+            //close the file
+            file.Close();
+
+
+        }
+    }
+
+    public void LoadScriptables()
+    {
+
+        for (int i = 0; i < objects.Count; i++)
+        {
+
+            if (File.Exists(Application.persistentDataPath +
+                string.Format($"/{i}.dat")))
+            {
+                FileStream file = File.Open(Application.persistentDataPath +
+                string.Format($"/{i}.dat"), FileMode.Open);
+
+                BinaryFormatter binary = new BinaryFormatter();
+
+                JsonUtility.FromJsonOverwrite((string)binary.Deserialize(file),
+                    objects[i]);
+
+                file.Close();
+
+            }
+
+
+        }
+
+    }
+
 
     // Start is called before the first frame update
     void Start()
