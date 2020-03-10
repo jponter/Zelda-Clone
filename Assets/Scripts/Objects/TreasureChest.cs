@@ -37,7 +37,7 @@ public class TreasureChest : Interactable
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("attack") && playerInRange) 
+        if (Input.GetButtonDown("attack") && playerInRange)
         {
 
             if (!isOpen)
@@ -53,6 +53,11 @@ public class TreasureChest : Interactable
 
 
         }
+    }
+
+    public void InterractChest()
+    {
+
     }
 
 

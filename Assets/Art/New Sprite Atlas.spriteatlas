@@ -43,7 +43,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 02c05b583d46ece418d1e7d64c0df521, type: 3}
-    totalSpriteSurfaceArea: 1144805
+    totalSpriteSurfaceArea: 1182881
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1845,10 +1845,41 @@ SpriteAtlas:
   - {fileID: -2086765476746818828, guid: 66de6dc8cb0aedb438a36fead7a18e7f, type: 3}
   - {fileID: 5566842953363755866, guid: 66de6dc8cb0aedb438a36fead7a18e7f, type: 3}
   - {fileID: -7445369939883215787, guid: 66de6dc8cb0aedb438a36fead7a18e7f, type: 3}
+  - {fileID: -134369724413475220, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -4541977737240093436, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 951018012323566522, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 2023176062729479260, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 1424786261180037135, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 7777100389646448644, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -823298783069048056, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 368417881747873077, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -7601260514028395475, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 7627512933118868929, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 3291756735606063980, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -7138319701972840668, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -529646562509220946, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -3847943250117979209, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -6815739294338704575, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 3844375112415055413, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: 6926094506201588144, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
+  - {fileID: -8264367007930756521, guid: fed2a2d86e7992b4c90e85e2d4c40071, type: 3}
   - {fileID: 21300000, guid: 4138c6c99502707478830f98d613eb07, type: 3}
   - {fileID: 21300000, guid: 2c9823d9497c6d042bdc7f6a8d03a1de, type: 3}
   - {fileID: 21300000, guid: bff76a9b86b602f49bce0c05b0427563, type: 3}
   - {fileID: 21300000, guid: 82a560dc53b21754e9665dacc3be5ee9, type: 3}
+  - {fileID: -1540590527562206909, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: -7445728037447846149, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 4792086390759421477, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: -3462787873181832886, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 45966500872709769, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 7013577002690406627, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: -2356003859601637949, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 2369481524001456022, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 7746255393700133122, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 4482783208499175354, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: -4988383733850832283, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: -2146757507701255462, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
+  - {fileID: 1513826763441915127, guid: 005af2ec168acbb43a428c68ab545d0d, type: 3}
   - {fileID: 21300000, guid: 83fbfb1d81c32d34cab95a95975ae1f0, type: 3}
   - {fileID: -6310569963058040139, guid: 8e52c21fa9fca4b47aa4c878dacace10, type: 3}
   - {fileID: 872970485272095551, guid: 8e52c21fa9fca4b47aa4c878dacace10, type: 3}
@@ -3707,10 +3738,41 @@ SpriteAtlas:
   - log_20
   - log_21
   - log_22
+  - Skeleton Attack_16
+  - Skeleton Attack_17
+  - Skeleton Attack_14
+  - Skeleton Attack_15
+  - Skeleton Attack_12
+  - Skeleton Attack_13
+  - Skeleton Attack_10
+  - Skeleton Attack_11
+  - Skeleton Attack_9
+  - Skeleton Attack_8
+  - Skeleton Attack_3
+  - Skeleton Attack_2
+  - Skeleton Attack_1
+  - Skeleton Attack_0
+  - Skeleton Attack_7
+  - Skeleton Attack_6
+  - Skeleton Attack_5
+  - Skeleton Attack_4
   - bow
   - magic bottle
   - key
   - font
+  - Skeleton Walk_4
+  - Skeleton Walk_5
+  - Skeleton Walk_6
+  - Skeleton Walk_7
+  - Skeleton Walk_0
+  - Skeleton Walk_1
+  - Skeleton Walk_2
+  - Skeleton Walk_3
+  - Skeleton Walk_8
+  - Skeleton Walk_9
+  - Skeleton Walk_12
+  - Skeleton Walk_11
+  - Skeleton Walk_10
   - magic bar
   - vortexanim256_2
   - vortexanim256_3

@@ -7,6 +7,7 @@ using UnityEngine;
 public class GameSaveManager : MonoBehaviour
 {
 
+    
 
     // WE ARE MAKING THIS A SINGLETON
     public static GameSaveManager gameSave;
@@ -37,6 +38,55 @@ public class GameSaveManager : MonoBehaviour
     private void OnDisable()
     {
         SaveScriptables();
+    }
+
+    public void ResetScriptables()
+    {
+        Debug.Log("Resetting Scriptables");
+        for (int i = 0; i < objects.Count; i++)
+        {
+          
+            switch (objects[i].GetType().FullName)
+            {
+                case "FloatValue":
+                    FloatValue ftmp = (FloatValue)objects[i];
+                    ftmp.RuntimeValue = ftmp.initialValue;
+                    Debug.Log("resetting FloatValue");
+                    break;
+
+                case "BoolValue":
+                    BoolValue btmp = (BoolValue)objects[i];
+                    btmp.RuntimeValue = btmp.initialValue;
+                    Debug.Log("resetting BoolValue");
+                    break;
+
+                case "Inventory":
+                    Inventory itmp = (Inventory)objects[i];
+                    itmp.coins = 0;
+                    itmp.maxMagic = 10;
+                    itmp.items.Clear();
+                    itmp.numberOfKeys = 0;
+                    Debug.Log("Inventory Reset");
+                    break;
+
+                  
+
+                default:
+                    break;
+            }
+
+          
+
+
+            if(File.Exists(Application.persistentDataPath +
+                string.Format($"/{i}.dat")))
+            {
+                File.Delete(Application.persistentDataPath +
+                string.Format($"/{i}.dat"));
+            }
+
+
+        }
     }
 
 

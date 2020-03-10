@@ -63,20 +63,26 @@ public class Door : Interactable
     {
         if (Input.GetButtonDown("attack"))
         {
-            //Debug.Log("Space Pressed ");
-            if (playerInRange && thisDoorType == DoorType.key)
-            {
-                // does the player have a key 
-                if(playerInventory.numberOfKeys > 0)
-                {
-                    // remove a key
-                    playerInventory.numberOfKeys--;
-                    //if so then call open
-                    Open(true);
-
-                }
-
-            }
+            InterractDoor();
         }
     }
+
+    public void InterractDoor()
+    {
+        //Debug.Log("Space Pressed ");
+        if (playerInRange && thisDoorType == DoorType.key)
+        {
+            // does the player have a key 
+            if (playerInventory.numberOfKeys > 0)
+            {
+                // remove a key
+                playerInventory.numberOfKeys--;
+                //if so then call open
+                Open(true);
+
+            }
+
+        }
+    }
+
 }
