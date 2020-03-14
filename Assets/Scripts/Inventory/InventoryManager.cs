@@ -27,23 +27,27 @@ public class InventoryManager : MonoBehaviour
         {
             for (int i = 0; i < playerInventory.myInventory.Count; i++)
             {
-                GameObject temp = Instantiate(blankInventorySlot,inventoryPanel.transform.position, Quaternion.identity);
-                temp.transform.SetParent(inventoryPanel.transform);
-
-                InventorySlot newSlot = temp.GetComponent<InventorySlot>();
-
-                if (newSlot)
+                if (playerInventory.myInventory[i].numberHeld > 0)
                 {
-                    
-                    newSlot.Setup(playerInventory.myInventory[i], this);
+                    GameObject temp = Instantiate(blankInventorySlot, inventoryPanel.transform.position, Quaternion.identity);
+                    temp.transform.SetParent(inventoryPanel.transform);
+
+                    InventorySlot newSlot = temp.GetComponent<InventorySlot>();
+
+                    if (newSlot)
+                    {
+
+                        newSlot.Setup(playerInventory.myInventory[i], this);
+                    }
                 }
             }
         }
     }
 
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
+        ClearInventorySlots();
         MakeInventorySlots();
         SetTextAndButton("", false);
 
@@ -56,12 +60,31 @@ public class InventoryManager : MonoBehaviour
         useButton.SetActive(buttonEnabled);
     }
 
+    void ClearInventorySlots()
+    {
+        for (int i = 0; i < inventoryPanel.transform.childCount; i++)
+        {
+            Destroy(inventoryPanel.transform.GetChild(i).gameObject);
+        }
+    }
+
     public void UseButtonPressed()
     {
         if (currentItem)
         {
             currentItem.Use();
+            //clear the inventory UI slots
+            ClearInventorySlots();
+            //refill all slots 
+            MakeInventorySlots();
+            if (currentItem.numberHeld == 0)
+            {
+                SetTextAndButton("", false);
+
+            }
         }
     }
+
+  
 
 }

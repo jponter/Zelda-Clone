@@ -1,0 +1,4771 @@
+fileFormatVersion: 2
+guid: 969c9434852ca8a4eb3a8059e4462184
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7276083180133568006
+    second: goblin_cave_0
+  - first:
+      213: -9115956947277030998
+    second: goblin_cave_1
+  - first:
+      213: 5263413232393824162
+    second: goblin_cave_2
+  - first:
+      213: -6840917444252328860
+    second: goblin_cave_3
+  - first:
+      213: 5750190945435083083
+    second: goblin_cave_4
+  - first:
+      213: -8120774743495859025
+    second: goblin_cave_5
+  - first:
+      213: 2223608113269199753
+    second: goblin_cave_6
+  - first:
+      213: 5863187687371970308
+    second: goblin_cave_7
+  - first:
+      213: -4593095166004998262
+    second: goblin_cave_8
+  - first:
+      213: 1790986546822068728
+    second: goblin_cave_9
+  - first:
+      213: -1045042205375077985
+    second: goblin_cave_10
+  - first:
+      213: -8834488806925251626
+    second: goblin_cave_11
+  - first:
+      213: 3998935961092474762
+    second: goblin_cave_12
+  - first:
+      213: -3187903365707970983
+    second: goblin_cave_13
+  - first:
+      213: 2821919316854989088
+    second: goblin_cave_14
+  - first:
+      213: -6954273685008952722
+    second: goblin_cave_15
+  - first:
+      213: 3377690877969448126
+    second: goblin_cave_16
+  - first:
+      213: 8948567557018153342
+    second: goblin_cave_17
+  - first:
+      213: 1935002893247700091
+    second: goblin_cave_18
+  - first:
+      213: -358127786155728690
+    second: goblin_cave_19
+  - first:
+      213: -4529580895319084036
+    second: goblin_cave_20
+  - first:
+      213: -5135685509876745473
+    second: goblin_cave_21
+  - first:
+      213: -4737597402586233991
+    second: goblin_cave_22
+  - first:
+      213: 3990377174687967908
+    second: goblin_cave_23
+  - first:
+      213: -1843124217590924585
+    second: goblin_cave_24
+  - first:
+      213: 5049026865308709022
+    second: goblin_cave_25
+  - first:
+      213: -8806075437948037549
+    second: goblin_cave_26
+  - first:
+      213: 8873974217764609737
+    second: goblin_cave_27
+  - first:
+      213: 6670609705066027809
+    second: goblin_cave_28
+  - first:
+      213: 400243370576716166
+    second: goblin_cave_29
+  - first:
+      213: -8779505409744336258
+    second: goblin_cave_30
+  - first:
+      213: -2606456317882097170
+    second: goblin_cave_31
+  - first:
+      213: -638726602919082018
+    second: goblin_cave_32
+  - first:
+      213: -1297272801037120687
+    second: goblin_cave_33
+  - first:
+      213: -6007658888438399889
+    second: goblin_cave_34
+  - first:
+      213: 797128201401021773
+    second: goblin_cave_35
+  - first:
+      213: -1701168287620573475
+    second: goblin_cave_36
+  - first:
+      213: 3483572112672103919
+    second: goblin_cave_37
+  - first:
+      213: 3132533800256089999
+    second: goblin_cave_38
+  - first:
+      213: -6372143482956778644
+    second: goblin_cave_39
+  - first:
+      213: 1649160855147284448
+    second: goblin_cave_40
+  - first:
+      213: 1507714052114125895
+    second: goblin_cave_41
+  - first:
+      213: 5761262040886340310
+    second: goblin_cave_42
+  - first:
+      213: 5259114993908595953
+    second: goblin_cave_43
+  - first:
+      213: -4516822157631918078
+    second: goblin_cave_44
+  - first:
+      213: 7830472265532285415
+    second: goblin_cave_45
+  - first:
+      213: -8677696663760771524
+    second: goblin_cave_46
+  - first:
+      213: 1594525556350434547
+    second: goblin_cave_47
+  - first:
+      213: -2883804913548101476
+    second: goblin_cave_48
+  - first:
+      213: 1165343289522462268
+    second: goblin_cave_49
+  - first:
+      213: -1757205723537460239
+    second: goblin_cave_50
+  - first:
+      213: 1984384780319075018
+    second: goblin_cave_51
+  - first:
+      213: -5164697575772062469
+    second: goblin_cave_52
+  - first:
+      213: 5203272974897943799
+    second: goblin_cave_53
+  - first:
+      213: -2175670569923362194
+    second: goblin_cave_54
+  - first:
+      213: -4655974996940458041
+    second: goblin_cave_55
+  - first:
+      213: -8052510092715033294
+    second: goblin_cave_56
+  - first:
+      213: -2205767332807848028
+    second: goblin_cave_57
+  - first:
+      213: -6402805605138898390
+    second: goblin_cave_58
+  - first:
+      213: 8728361022099792164
+    second: goblin_cave_59
+  - first:
+      213: 3199958385649248335
+    second: goblin_cave_60
+  - first:
+      213: -7575746752710552081
+    second: goblin_cave_61
+  - first:
+      213: -98316434228986374
+    second: goblin_cave_62
+  - first:
+      213: -6524075124479324691
+    second: goblin_cave_63
+  - first:
+      213: -2784397740364027284
+    second: goblin_cave_64
+  - first:
+      213: -410227071401527533
+    second: goblin_cave_65
+  - first:
+      213: 1015264829070532565
+    second: goblin_cave_66
+  - first:
+      213: -8896266291095958588
+    second: goblin_cave_67
+  - first:
+      213: -6184080258612699296
+    second: goblin_cave_68
+  - first:
+      213: -3665049684133264036
+    second: goblin_cave_69
+  - first:
+      213: 5301691300978645091
+    second: goblin_cave_70
+  - first:
+      213: 4667390985659987976
+    second: goblin_cave_71
+  - first:
+      213: 4996968790442172628
+    second: goblin_cave_72
+  - first:
+      213: 6882817978163052750
+    second: goblin_cave_73
+  - first:
+      213: -3423425831798854660
+    second: goblin_cave_74
+  - first:
+      213: 5627812449144268196
+    second: goblin_cave_75
+  - first:
+      213: 4500816607669498698
+    second: goblin_cave_76
+  - first:
+      213: -2724480244487190739
+    second: goblin_cave_77
+  - first:
+      213: -8574551195423737128
+    second: goblin_cave_78
+  - first:
+      213: -4205764176918146582
+    second: goblin_cave_79
+  - first:
+      213: -7463555266698112731
+    second: goblin_cave_80
+  - first:
+      213: 2165766159997120112
+    second: goblin_cave_81
+  - first:
+      213: 9152481413268263744
+    second: goblin_cave_82
+  - first:
+      213: -3901428554698240777
+    second: goblin_cave_83
+  - first:
+      213: -6260320298460992095
+    second: goblin_cave_84
+  - first:
+      213: 6594879897646125641
+    second: goblin_cave_85
+  - first:
+      213: 7193476206591488929
+    second: goblin_cave_86
+  - first:
+      213: 7785278270380617913
+    second: goblin_cave_87
+  - first:
+      213: -2519930747796293121
+    second: goblin_cave_88
+  - first:
+      213: -4433849466873772468
+    second: goblin_cave_89
+  - first:
+      213: 4041175745849780452
+    second: goblin_cave_90
+  - first:
+      213: -7583916879204223953
+    second: goblin_cave_91
+  - first:
+      213: 3450327644769430668
+    second: goblin_cave_92
+  - first:
+      213: -3054448761520254248
+    second: goblin_cave_93
+  - first:
+      213: 8148850517724682126
+    second: goblin_cave_94
+  - first:
+      213: -8105699996607156930
+    second: goblin_cave_95
+  - first:
+      213: -2812575955345686893
+    second: goblin_cave_96
+  - first:
+      213: -7620448108180901484
+    second: goblin_cave_97
+  - first:
+      213: 8586394905411124005
+    second: goblin_cave_98
+  - first:
+      213: 2383906025641327905
+    second: goblin_cave_99
+  - first:
+      213: 738855422031091289
+    second: goblin_cave_100
+  - first:
+      213: 4831688165517458803
+    second: goblin_cave_101
+  - first:
+      213: 7237989497878888271
+    second: goblin_cave_102
+  - first:
+      213: -6094194086567108906
+    second: goblin_cave_103
+  - first:
+      213: -211522007495494476
+    second: goblin_cave_104
+  - first:
+      213: 6060801222030940264
+    second: goblin_cave_105
+  - first:
+      213: -2270306429691172423
+    second: goblin_cave_106
+  - first:
+      213: 3170509735778470004
+    second: goblin_cave_107
+  - first:
+      213: -4912778223121689986
+    second: goblin_cave_108
+  - first:
+      213: -2325279882461844834
+    second: goblin_cave_109
+  - first:
+      213: 3236171410687236317
+    second: goblin_cave_110
+  - first:
+      213: 8619685108498668115
+    second: goblin_cave_111
+  - first:
+      213: 9071367764164968369
+    second: goblin_cave_112
+  - first:
+      213: 4290232893762684219
+    second: goblin_cave_113
+  - first:
+      213: -6855060824143164996
+    second: goblin_cave_114
+  - first:
+      213: 8496301730921156335
+    second: goblin_cave_115
+  - first:
+      213: -2638986540131819520
+    second: goblin_cave_116
+  - first:
+      213: 3364886637664881227
+    second: goblin_cave_117
+  - first:
+      213: -7801629374782018882
+    second: goblin_cave_118
+  - first:
+      213: -5468710183217129522
+    second: goblin_cave_119
+  - first:
+      213: 3101225793196271525
+    second: goblin_cave_120
+  - first:
+      213: -4054652574117145375
+    second: goblin_cave_121
+  - first:
+      213: -8577941843914134365
+    second: goblin_cave_122
+  - first:
+      213: -7212779989041840198
+    second: goblin_cave_123
+  - first:
+      213: -7394546296905400012
+    second: goblin_cave_124
+  - first:
+      213: 3704264532689538727
+    second: goblin_cave_125
+  - first:
+      213: 1850464243221676063
+    second: goblin_cave_126
+  - first:
+      213: -8278266960200552335
+    second: goblin_cave_127
+  - first:
+      213: 5216573747848401231
+    second: goblin_cave_128
+  - first:
+      213: -1704111104439880491
+    second: goblin_cave_129
+  - first:
+      213: -5822588663790972440
+    second: goblin_cave_130
+  - first:
+      213: 5444984840578411068
+    second: goblin_cave_131
+  - first:
+      213: -1870310941533275732
+    second: goblin_cave_132
+  - first:
+      213: -301381013589869751
+    second: goblin_cave_133
+  - first:
+      213: 6251807868925645366
+    second: goblin_cave_134
+  - first:
+      213: -228730839100230489
+    second: goblin_cave_135
+  - first:
+      213: -1437526824033383419
+    second: goblin_cave_136
+  - first:
+      213: -5918907909161529026
+    second: goblin_cave_137
+  - first:
+      213: 3157824789989611681
+    second: goblin_cave_138
+  - first:
+      213: -8048857458660822083
+    second: goblin_cave_139
+  - first:
+      213: 5078536894567146916
+    second: goblin_cave_140
+  - first:
+      213: -9058211270239447753
+    second: goblin_cave_141
+  - first:
+      213: -1583443928202825522
+    second: goblin_cave_142
+  - first:
+      213: -6092193814726212515
+    second: goblin_cave_143
+  - first:
+      213: 5830626638082496559
+    second: goblin_cave_144
+  - first:
+      213: 5748059371231985669
+    second: goblin_cave_145
+  - first:
+      213: -4489509099496409282
+    second: goblin_cave_146
+  - first:
+      213: -6854999277966972622
+    second: goblin_cave_147
+  - first:
+      213: -4246087549470299391
+    second: goblin_cave_148
+  - first:
+      213: 8965608498434728946
+    second: goblin_cave_149
+  - first:
+      213: -7235429860969611013
+    second: goblin_cave_150
+  - first:
+      213: -2679185770519627029
+    second: goblin_cave_151
+  - first:
+      213: -4103309992114361424
+    second: goblin_cave_152
+  - first:
+      213: 3514519966857030691
+    second: goblin_cave_153
+  - first:
+      213: 6894460291260461138
+    second: goblin_cave_154
+  - first:
+      213: 6857755298588290640
+    second: goblin_cave_155
+  - first:
+      213: -3531551746853676774
+    second: goblin_cave_156
+  - first:
+      213: -1047715993254108957
+    second: goblin_cave_157
+  - first:
+      213: 6232463899034789241
+    second: goblin_cave_158
+  - first:
+      213: -2971127728372787987
+    second: goblin_cave_159
+  - first:
+      213: -5519544315705861629
+    second: goblin_cave_160
+  - first:
+      213: 4976717304147875611
+    second: goblin_cave_161
+  - first:
+      213: 2782669931445623140
+    second: goblin_cave_162
+  - first:
+      213: -1656622084492239181
+    second: goblin_cave_163
+  - first:
+      213: 5734941872660152865
+    second: goblin_cave_164
+  - first:
+      213: -2420439646126670081
+    second: goblin_cave_165
+  - first:
+      213: -1759359582336343818
+    second: goblin_cave_166
+  - first:
+      213: 1464296337404388682
+    second: goblin_cave_167
+  - first:
+      213: 1704237929952046896
+    second: goblin_cave_168
+  - first:
+      213: 2368894452942423409
+    second: goblin_cave_169
+  - first:
+      213: -1076404954093148334
+    second: goblin_cave_170
+  - first:
+      213: -3083524209720136201
+    second: goblin_cave_171
+  - first:
+      213: 6836710736182061903
+    second: goblin_cave_172
+  - first:
+      213: -5212710906748492815
+    second: goblin_cave_173
+  - first:
+      213: 4393961927834593358
+    second: goblin_cave_174
+  - first:
+      213: 6979552048541425677
+    second: goblin_cave_175
+  - first:
+      213: 247969776264785493
+    second: goblin_cave_176
+  - first:
+      213: 2977437203629780190
+    second: goblin_cave_177
+  - first:
+      213: -1969958062664486506
+    second: goblin_cave_178
+  - first:
+      213: -6637996198751125802
+    second: goblin_cave_179
+  - first:
+      213: -8335729234811181325
+    second: goblin_cave_180
+  - first:
+      213: 7024734902109494531
+    second: goblin_cave_181
+  - first:
+      213: 4337598831087952299
+    second: goblin_cave_182
+  - first:
+      213: 3589087781208010874
+    second: goblin_cave_183
+  - first:
+      213: -7227114989452977509
+    second: goblin_cave_184
+  - first:
+      213: 698590395951147501
+    second: goblin_cave_185
+  - first:
+      213: -3454832420021045058
+    second: goblin_cave_186
+  - first:
+      213: 2592155824494273310
+    second: goblin_cave_187
+  - first:
+      213: -2662579221823141907
+    second: goblin_cave_188
+  - first:
+      213: 4631209073036045732
+    second: goblin_cave_189
+  - first:
+      213: 3240994328059642268
+    second: goblin_cave_190
+  - first:
+      213: -3550685966361289171
+    second: goblin_cave_191
+  - first:
+      213: -3220160148126472320
+    second: goblin_cave_192
+  - first:
+      213: -3828493767718421851
+    second: goblin_cave_193
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goblin_cave_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e4e0c1a17d9f460800000000000000
+      internalID: 7276083180133568006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa95cc1747d9d7180800000000000000
+      internalID: -9115956947277030998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7ace6b2766b0940800000000000000
+      internalID: 5263413232393824162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c119544dd2011a0800000000000000
+      internalID: -6840917444252328860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b416355f238cccf40800000000000000
+      internalID: 5750190945435083083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa427f085663d4f80800000000000000
+      internalID: -8120774743495859025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983561f3cc7dbde10800000000000000
+      internalID: 2223608113269199753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 805
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407104d132a3e5150800000000000000
+      internalID: 5863187687371970308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f45b2284c0240c0800000000000000
+      internalID: -4593095166004998262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f935d876ccdad810800000000000000
+      internalID: 1790986546822068728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91e35da6a34f71f0800000000000000
+      internalID: -1045042205375077985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db4e0bbc37956580800000000000000
+      internalID: -8834488806925251626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87c370c1131f7730800000000000000
+      internalID: 3998935961092474762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95644b477ca42c3d0800000000000000
+      internalID: -3187903365707970983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02164f1eaa8792720800000000000000
+      internalID: 2821919316854989088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 773
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62d136cde47d7f90800000000000000
+      internalID: -6954273685008952722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc327e25f7ffde20800000000000000
+      internalID: 3377690877969448126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71f6a418c2bf2c70800000000000000
+      internalID: 8948567557018153342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cd16b11e28ada10800000000000000
+      internalID: 1935002893247700091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0adf90daca70bf0800000000000000
+      internalID: -358127786155728690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf33c19ac22b321c0800000000000000
+      internalID: -4529580895319084036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffafca12d316ab8b0800000000000000
+      internalID: -5135685509876745473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973c802634ca04eb0800000000000000
+      internalID: -4737597402586233991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 741
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa6a1106eaa06730800000000000000
+      internalID: 3990377174687967908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dab2951a48eb66e0800000000000000
+      internalID: -1843124217590924585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e903120ee2fb11640800000000000000
+      internalID: 5049026865308709022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35690d7bb098ac580800000000000000
+      internalID: -8806075437948037549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce95d3e880b62b70800000000000000
+      internalID: 8873974217764609737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bdbb13f24c29c50800000000000000
+      internalID: 6670609705066027809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6812ee69933fd8500800000000000000
+      internalID: 400243370576716166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a819c785ee82680800000000000000
+      internalID: -8779505409744336258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 709
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1a01ad9c104dbd0800000000000000
+      internalID: -2606456317882097170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78a6ce989c227f0800000000000000
+      internalID: -638726602919082018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b086db2492ffde0800000000000000
+      internalID: -1297272801037120687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c39e6221280aca0800000000000000
+      internalID: -6007658888438399889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4534f430e7ff0b00800000000000000
+      internalID: 797128201401021773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd65731a47c3468e0800000000000000
+      internalID: -1701168287620573475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed17453162285030800000000000000
+      internalID: 3483572112672103919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f2b2bf4eef87b20800000000000000
+      internalID: 3132533800256089999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 677
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c637a8863499197a0800000000000000
+      internalID: -6372143482956778644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e788846f0ff2e610800000000000000
+      internalID: 1649160855147284448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744902331f97ce410800000000000000
+      internalID: 1507714052114125895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dae8fc3d4d14ff40800000000000000
+      internalID: 5761262040886340310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc3ad419312cf840800000000000000
+      internalID: 5259114993908595953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2007cb4cd260151c0800000000000000
+      internalID: -4516822157631918078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1a992b90d6bac60800000000000000
+      internalID: 7830472265532285415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3662f75cd0a29780800000000000000
+      internalID: -8677696663760771524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 645
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcbc8b9b84e02610800000000000000
+      internalID: 1594525556350434547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98707ec5baaaf7d0800000000000000
+      internalID: -2883804913548101476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e1f5d2c812c2010800000000000000
+      internalID: 1165343289522462268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3344b54b62d97e0800000000000000
+      internalID: -1757205723537460239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca2c98a173f98b10800000000000000
+      internalID: 1984384780319075018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcf8c72bee4358b0800000000000000
+      internalID: -5164697575772062469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f49e2ad33db53840800000000000000
+      internalID: 5203272974897943799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e624273d4277ec1e0800000000000000
+      internalID: -2175670569923362194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 613
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c77340a867a26fb0800000000000000
+      internalID: -4655974996940458041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23df8751cbcbf3090800000000000000
+      internalID: -8052510092715033294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afc3d62c4a8361e0800000000000000
+      internalID: -2205767332807848028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22e0d3c93aa427a0800000000000000
+      internalID: -6402805605138898390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421af91da1e512970800000000000000
+      internalID: 8728361022099792164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48e7a89239886c20800000000000000
+      internalID: 3199958385649248335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe55e58677a8dd690800000000000000
+      internalID: -7575746752710552081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdb23659b5b2aef0800000000000000
+      internalID: -98316434228986374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded82758d34d575a0800000000000000
+      internalID: -6524075124479324691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa33ce105db59d0800000000000000
+      internalID: -2784397740364027284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317fcdbe6a49e4af0800000000000000
+      internalID: -410227071401527533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df52b1abf1f61e00800000000000000
+      internalID: 1015264829070532565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb81f351fc1a8480800000000000000
+      internalID: -8896266291095958588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f52eaf4cbbd2aa0800000000000000
+      internalID: -6184080258612699296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5544150bb0232dc0800000000000000
+      internalID: -3665049684133264036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3685c9f0624639940800000000000000
+      internalID: 5301691300978645091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 549
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bf106f57e5c040800000000000000
+      internalID: 4667390985659987976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0e40cc3acc85540800000000000000
+      internalID: 4996968790442172628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0c4120c7ea48f50800000000000000
+      internalID: 6882817978163052750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbabb4185c8d70d0800000000000000
+      internalID: -3423425831798854660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e3c5ea910a1e40800000000000000
+      internalID: 5627812449144268196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43b15bbbdc167e30800000000000000
+      internalID: 4500816607669498698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2785cd07a3b03ad0800000000000000
+      internalID: -2724480244487190739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dafd502e13110980800000000000000
+      internalID: -8574551195423737128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 517
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae11bb1a3cf12a5c0800000000000000
+      internalID: -4205764176918146582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52196fe47002c6890800000000000000
+      internalID: -7463555266698112731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ea03909d85e0e10800000000000000
+      internalID: 2165766159997120112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043583b7a55240f70800000000000000
+      internalID: 9152481413268263744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc45a076675bd9c0800000000000000
+      internalID: -3901428554698240777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ada01e6bdfde19a0800000000000000
+      internalID: -6260320298460992095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942df836358b58b50800000000000000
+      internalID: 6594879897646125641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a33c1a4f7c54d360800000000000000
+      internalID: 7193476206591488929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 485
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0ba97b65dda0c60800000000000000
+      internalID: 7785278270380617913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff974070658670dd0800000000000000
+      internalID: -2519930747796293121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_89
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c460f63c66dc772c0800000000000000
+      internalID: -4433849466873772468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8ec460ee3251830800000000000000
+      internalID: 4041175745849780452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_91
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2471f897c380c690800000000000000
+      internalID: -7583916879204223953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c213956b602ef20800000000000000
+      internalID: 3450327644769430668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_93
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d214f8d80b6c95d0800000000000000
+      internalID: -3054448761520254248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87dcb41f58861170800000000000000
+      internalID: 8148850517724682126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 453
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d68568cc4c28f80800000000000000
+      internalID: -8105699996607156930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eb0ddf119b7f8d0800000000000000
+      internalID: -2812575955345686893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 491749a02dabe3690800000000000000
+      internalID: -7620448108180901484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf04e7ca0092770800000000000000
+      internalID: 8586394905411124005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12db34c56e5551120800000000000000
+      internalID: 2383906025641327905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956d88a7711f04a00800000000000000
+      internalID: 738855422031091289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d702389ca9d0340800000000000000
+      internalID: 4831688165517458803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f341d8911827460800000000000000
+      internalID: 7237989497878888271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 421
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de91e544c21d6ba0800000000000000
+      internalID: -6094194086567108906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4bd09dad5801df0800000000000000
+      internalID: -211522007495494476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8685865999a4c1450800000000000000
+      internalID: 6060801222030940264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9e8fea4504e70e0800000000000000
+      internalID: -2270306429691172423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4784efd7ec9effb20800000000000000
+      internalID: 3170509735778470004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729e8e2c3e42dbb0800000000000000
+      internalID: -4912778223121689986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aef7a4442fabfd0800000000000000
+      internalID: -2325279882461844834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_110
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8994680c039ec20800000000000000
+      internalID: 3236171410687236317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_111
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 389
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a99c7efe54f9770800000000000000
+      internalID: 8619685108498668115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf7bf95be8f3ed70800000000000000
+      internalID: 9071367764164968369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35cb641618f98b30800000000000000
+      internalID: 4290232893762684219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb90047008eedd0a0800000000000000
+      internalID: -6855060824143164996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee8710b86de8e570800000000000000
+      internalID: 8496301730921156335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000e76449bf606bd0800000000000000
+      internalID: -2638986540131819520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a497ba19a72be20800000000000000
+      internalID: 3364886637664881227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba6dde1b6b0bb390800000000000000
+      internalID: -7801629374782018882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 357
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec718c5101d3b14b0800000000000000
+      internalID: -5468710183217129522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a72ebb8d64c90b20800000000000000
+      internalID: 3101225793196271525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4df1067fafab7c0800000000000000
+      internalID: -4054652574117145375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_122
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ace981475705f880800000000000000
+      internalID: -8577941843914134365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_123
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf7d1e90de07eb90800000000000000
+      internalID: -7212779989041840198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_124
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43106c9225b416990800000000000000
+      internalID: -7394546296905400012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aec90967f0386330800000000000000
+      internalID: 3704264532689538727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104acecc6b2ea910800000000000000
+      internalID: 1850464243221676063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_127
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 325
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170b4615f00bd1d80800000000000000
+      internalID: -8278266960200552335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41d1216f2ef46840800000000000000
+      internalID: 5216573747848401231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4ff02baf7c958e0800000000000000
+      internalID: -1704111104439880491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d58da572023fa0800000000000000
+      internalID: -5822588663790972440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a201e1dd8709b40800000000000000
+      internalID: 5444984840578411068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9f166ab125b06e0800000000000000
+      internalID: -1870310941533275732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bbdee909741dbf0800000000000000
+      internalID: -301381013589869751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6321e4f1222e2c650800000000000000
+      internalID: 6251807868925645366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4f042838263dcf0800000000000000
+      internalID: -228730839100230489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c056a48f0ec0ce0800000000000000
+      internalID: -1437526824033383419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e315d28cd90dbdda0800000000000000
+      internalID: -5918907909161529026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8d0466ae8d2db20800000000000000
+      internalID: 3157824789989611681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3b4c839c6bc4090800000000000000
+      internalID: -8048857458660822083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5e36bf5669a7640800000000000000
+      internalID: 5078536894567146916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 261
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73510f897d4ca4280800000000000000
+      internalID: -9058211270239447753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0b8b1032a760ae0800000000000000
+      internalID: -1583443928202825522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_143
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54896ad00e247ba0800000000000000
+      internalID: -6092193814726212515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2856dc090c8ae050800000000000000
+      internalID: 5830626638082496559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_145
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500432a2b8535cf40800000000000000
+      internalID: 5748059371231985669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f1aca24f02b1c0800000000000000
+      internalID: -4489509099496409282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_147
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239283dd9762ed0a0800000000000000
+      internalID: -6854999277966972622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b2d98deddd215c0800000000000000
+      internalID: -4246087549470299391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_149
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 229
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3ec607d6d3c6c70800000000000000
+      internalID: 8965608498434728946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf007ab50e6969b90800000000000000
+      internalID: -7235429860969611013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_151
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea75e49cbe91dad0800000000000000
+      internalID: -2679185770519627029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_152
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb66bc6d4d1e07c0800000000000000
+      internalID: -4103309992114361424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_153
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ce7840a4516c030800000000000000
+      internalID: 3514519966857030691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_154
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250bd924b1b0eaf50800000000000000
+      internalID: 6894460291260461138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_155
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e68e03c14ab2f50800000000000000
+      internalID: 6857755298588290640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_156
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1950eea5686dfec0800000000000000
+      internalID: -3531551746853676774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0e79cead3c571f0800000000000000
+      internalID: -1047715993254108957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9752a6925e82e7650800000000000000
+      internalID: 6232463899034789241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_159
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4d600a21f64c6d0800000000000000
+      internalID: -2971127728372787987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a535c40b3a663b0800000000000000
+      internalID: -5519544315705861629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_161
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b171645350ad01540800000000000000
+      internalID: 4976717304147875611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4691af63f870e9620800000000000000
+      internalID: 2782669931445623140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_163
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed5c6cdfe7209e0800000000000000
+      internalID: -1656622084492239181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_164
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1220c678f3b969f40800000000000000
+      internalID: 5734941872660152865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_165
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffef85447fed86ed0800000000000000
+      internalID: -2420439646126670081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_166
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a9a608cf7597e0800000000000000
+      internalID: -1759359582336343818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_167
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45e4ecb2c9325410800000000000000
+      internalID: 1464296337404388682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fe98b2e5ba6a710800000000000000
+      internalID: 1704237929952046896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_169
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175c60a34f000e020800000000000000
+      internalID: 2368894452942423409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257aec4b567df01f0800000000000000
+      internalID: -1076404954093148334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd6057811f1535d0800000000000000
+      internalID: -3083524209720136201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b2b3e2130e0ee50800000000000000
+      internalID: 6836710736182061903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_173
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 133
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a3766c0bb8a7b0800000000000000
+      internalID: -5212710906748492815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48eb29d71d7afc30800000000000000
+      internalID: 4393961927834593358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_175
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0069a0eb995cd060800000000000000
+      internalID: 6979552048541425677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eab4d9237f07300800000000000000
+      internalID: 247969776264785493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca26f8c5bf15920800000000000000
+      internalID: 2977437203629780190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_178
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 101
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691777c449d49a4e0800000000000000
+      internalID: -1969958062664486506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_179
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6debb0970a911e3a0800000000000000
+      internalID: -6637996198751125802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_180
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6ad3fec6a815c80800000000000000
+      internalID: -8335729234811181325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_181
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d5681cc2fdc7160800000000000000
+      internalID: 7024734902109494531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_182
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1a521c72f323c30800000000000000
+      internalID: 4337598831087952299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_183
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 69
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70399a32500fc130800000000000000
+      internalID: 3589087781208010874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_184
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a11ce353124bb90800000000000000
+      internalID: -7227114989452977509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 37
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ea2a8344e1b900800000000000000
+      internalID: 698590395951147501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8742ee738fd00d0800000000000000
+      internalID: -3454832420021045058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13e0711dff29f320800000000000000
+      internalID: 2592155824494273310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de745e00e4e9c0bd0800000000000000
+      internalID: -2662579221823141907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad21ee5d1c554040800000000000000
+      internalID: 4631209073036045732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c910d0b7b235afc20800000000000000
+      internalID: 3240994328059642268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e121a0ded69bec0800000000000000
+      internalID: -3550685966361289171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0876d0b0861bf43d0800000000000000
+      internalID: -3220160148126472320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_cave_193
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aab856d3357edac0800000000000000
+      internalID: -3828493767718421851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

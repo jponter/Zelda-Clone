@@ -427,7 +427,9 @@ MonoBehaviour:
   currentState: 4
   speed: 6
   currentHealth: {fileID: 11400000, guid: e825c1ab5ab631d4da701a84a221c8f9, type: 2}
+  currentMagic: {fileID: 11400000, guid: 90c8d4cc2a46bf94e89b392f8d8ea07e, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 7ccb2e2caffc9a140b196f32b024150d, type: 2}
+  playerMagicSignal: {fileID: 11400000, guid: 9ba8158728d45ba4fbb09be9e98a6528, type: 2}
   playerHit: {fileID: 11400000, guid: 278c1124a5761954c8b49ec7bcea604b, type: 2}
   reduceMagic: {fileID: 11400000, guid: 9a63c2014d6682d4abc549661d351e49, type: 2}
   startingPosition: {fileID: 11400000, guid: d5be81b6e24f9c148ad2cffb0aa806aa, type: 2}

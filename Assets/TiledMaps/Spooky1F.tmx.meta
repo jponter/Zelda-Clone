@@ -1,0 +1,35 @@
+fileFormatVersion: 2
+guid: 2131cbc6a9557ce4fb5a3705910c5b21
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles:
+  - Assets/TiledMaps/Red Square.png
+  errors:
+  - 'Missing texture asset: Red Square.png'
+  warnings:
+  - Tileset 'cavern_ruins' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Red Square' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'fire' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'cute_lpc' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 32
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 1297
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {fileID: 4764264298581427369, guid: 2131cbc6a9557ce4fb5a3705910c5b21, type: 3}
+  - {fileID: 7202541044116725403, guid: 2131cbc6a9557ce4fb5a3705910c5b21, type: 3}
+  - {fileID: -419313170056242927, guid: 2131cbc6a9557ce4fb5a3705910c5b21, type: 3}
+  - {fileID: 5574189692734529760, guid: 2131cbc6a9557ce4fb5a3705910c5b21, type: 3}

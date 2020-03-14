@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: b79e1333c5ed4844bb323dc00901b518
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings:
+  - Tileset 'cavern_ruins' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'Red Square' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'fire' is an embedded tileset. Exported tilesets are preferred.
+  - Tileset 'cute_lpc' is an embedded tileset. Exported tilesets are preferred.
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 100
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 1300
+  tilesAsObjects: 0
+  sortingMode: 0
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets:
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}
+  - {instanceID: 0}

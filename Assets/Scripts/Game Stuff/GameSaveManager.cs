@@ -118,7 +118,7 @@ public class GameSaveManager : MonoBehaviour
 
     public void LoadScriptables()
     {
-
+        
         for (int i = 0; i < objects.Count; i++)
         {
 
@@ -142,6 +142,8 @@ public class GameSaveManager : MonoBehaviour
 
     }
 
+
+   
 
     // Start is called before the first frame update
     void Start()

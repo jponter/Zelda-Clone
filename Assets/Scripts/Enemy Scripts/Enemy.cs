@@ -54,7 +54,7 @@ public class Enemy : MonoBehaviour
     public void OnEnable()
     {
         transform.position = home;
-        Debug.Log("Setting back to home");
+        //Debug.Log("Setting back to home");
         health = maxHealth.initialValue;
         currentState = enemyState.idle;
     }
@@ -62,12 +62,12 @@ public class Enemy : MonoBehaviour
     private void Awake()
     {
         health = maxHealth.initialValue;
-        Debug.Log("Health set to " + health);
+        //Debug.Log("Health set to " + health);
         if (setUp)
         {
             setUp = false;
             home = transform.position;
-            Debug.Log("Setting home position of enemy");
+            //Debug.Log("Setting home position of enemy");
         }
         
     }

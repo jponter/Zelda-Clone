@@ -22,21 +22,30 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 change;
 
+    //todo: HEALTH break off health  into own component
     public FloatValue currentHealth;
+    public FloatValue currentMagic;
     public Signal playerHealthSignal;
+    public Signal playerMagicSignal;
 
+    //todo: HEALTH break off playerHit should be in health maybe
     public Signal playerHit;
+    //todo: MAGIC playermagic should be part of magic system
     public Signal reduceMagic;
 
     public VectorValue startingPosition;
 
+    //todo: break off
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
 
+
+    //todo: break off into player ability system
     [Header("Projectile Stuff")]
     public GameObject projectile;
     public Item bowItem;
 
+    //todo: break off into own script
     [Header("iFrame Stuff")]
     public Color flashColor;
     public Color regularColor;
@@ -58,6 +67,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("moveY", -1);
 
         transform.position = startingPosition.initialValue;
+
+        //Debug.LogWarning("PlayerMovement Tag is: " + this.gameObject.tag.ToString());
+        //if (this.gameObject.CompareTag("Player")) Debug.LogWarning("This game object is tagged with Player!");
 
     
     }
@@ -103,9 +115,12 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
+    //todo:  move knockback to own script
     public void Knock(float knockTime, float damage)
     {
         currentHealth.RuntimeValue -= damage;
+
+        //todo: HEALTH
         playerHealthSignal.Raise();
 
         if (currentHealth.RuntimeValue> 0)
@@ -118,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
             this.gameObject.SetActive(false);
         }
     }
-
+    //todo: move knockback to own script
     private IEnumerator KnockCo(float knockTime)
     {
         if (myRigidBody != null)
@@ -134,6 +149,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //todo: this should go to its own script
     private IEnumerator FlashCo()
     {
         int temp = 0;
@@ -190,6 +206,8 @@ public class PlayerMovement : MonoBehaviour
         else { Debug.Log("No Bow!"); }
     }
 
+
+    //todo: this should be part of the ability system
     private void MakeArrow()
     {
         if (playerInventory.currentMagic > 0)
@@ -197,11 +215,15 @@ public class PlayerMovement : MonoBehaviour
             Vector2 tmp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
             Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
             arrow.Setup(tmp, ChooseArrowDirection());
-            playerInventory.ReduceMagic(arrow.magicCost);
+            currentMagic.RuntimeValue -= arrow.magicCost;
             reduceMagic.Raise();
+
+            
         }
     }
 
+
+    //todo: this should be part of the ability system
     Vector3 ChooseArrowDirection()
     {
         float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
