@@ -22,8 +22,7 @@ MonoBehaviour:
   thisEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 821481638949004332, guid: aaac56a8f7e0e9648ae3aab3a885219e,
-          type: 3}
+      - m_Target: {fileID: 0}
         m_MethodName: Use
         m_Mode: 3
         m_Arguments:
@@ -34,7 +33,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000}
+      - m_Target: {fileID: 0}
         m_MethodName: DecreaseAmount
         m_Mode: 3
         m_Arguments:

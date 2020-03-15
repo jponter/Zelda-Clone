@@ -17,20 +17,13 @@ public class PhysicalInventoryItem : MonoBehaviour
             if (playerInventory.myInventory.Contains(thisItem))
             {
                 thisItem.numberHeld++;
-                if (!playerInventory.SL.serializableList.Contains(thisItem.itemName))
-                {
-                    playerInventory.SL.serializableList.Add(thisItem.itemName);
-                }
+                
             }
             else
             {
                 playerInventory.myInventory.Add(thisItem);
-                //sl.serializableList.Add(thisItem.itemName);
-                if (!playerInventory.SL.serializableList.Contains(thisItem.itemName))
-                {
-                    playerInventory.SL.serializableList.Add(thisItem.itemName);
-                }
-                thisItem.numberHeld += 1;
+                thisItem.numberHeld = 1;
+                
             }
 
         }

@@ -13,7 +13,7 @@ public class PlayerInventory : ScriptableObject
     //for serializing
     //public List<string> serializableInventoryItems = new List<string>();
 
-    public SerializableListString SL = new SerializableListString();
+    //public SerializableListString SL = new SerializableListString();
 
 
 }
