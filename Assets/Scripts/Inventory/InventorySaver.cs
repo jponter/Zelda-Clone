@@ -6,11 +6,24 @@ using System.Runtime.Serialization.Formatters.Binary;
 using UnityEditor;
 using UnityEngine;
 
+/*
+This class is responsible for saving out our scritpable objects that are stored in the inventory
+we don't actually write out the scriptable objects to disk, only a reference
+ie if we have a "Large Health Potion" SO in the inventory - we store the name
+when importing we use a lookup table (SO's must all be in the inspector in an itemDatabase)
+and recreate the inventory from that lookup table
+
+Utilises the Total JSON library to serialize the class out (class contains a List of Structs)
+see SerializbleListString.cs for details of that class
+*/ 
+
 public class InventorySaver : MonoBehaviour
 {
     [SerializeField] private PlayerInventory myInventory;
 
     public ItemDatabase ItemDB;
+
+    //SL is our serializable class that contains a representation of the items we want to save - this is a COPY
     private SerializableListString SL = new SerializableListString();
 
 
@@ -20,39 +33,50 @@ public class InventorySaver : MonoBehaviour
         myInventory.myInventory.Clear();
         Debug.Log("Inventory Count = " + myInventory.myInventory.Count);
 
-        //clear the SL
+        //clear the SL - we don't want anything in there
         SL.serializableList.Clear();
-        
+        //Load our save file
         LoadScriptables();
+        //re-import our save back into the game world
         ImportSaveData();
     }
 
     private void OnDisable()
     {
+        //clear the SL 
         SL.serializableList.Clear();
+        // build our save data from our current game state
         BuildSaveData();
+        //save out the save data
         SaveScriptables();
     }
 
     private void ImportSaveData()
     {
+        //go through the Sl and rebuild the items in the inventory
         for (int i = 0; i < SL.serializableList.Count; i++)
         {
-            //go through the Sl and rebuild the items
-
+            
+            //we will need the name and the count from the save data
             string name = SL.serializableList[i].name;
             int count = SL.serializableList[i].count;
 
-            InventoryItem obj = ItemDB.GetItem(name);
+
+            // we dont save the actual scriptable objects only a reference (NAME) that we then lookup to insert the correct scriptable object
+            InventoryItem obj =  ItemDB.GetItem(name);
                  if (obj)
                   {
+                    // we have an object to restor - check how many of that item we need and set it 
                     obj.numberHeld = count;
+
+                    // add the object to the inventory
                     myInventory.myInventory.Add(obj);
                     Debug.Log("Added " + obj.itemName + " count " + count +" to inventory");
                            
                         }
                         else
                         {
+                            //should never hit this!
                             Debug.LogError("ITEM DB Not Found: " + SL.serializableList[i].name);
                         }
 
@@ -67,23 +91,15 @@ public class InventorySaver : MonoBehaviour
         //then add to the serializablelist
         for (int i = 0; i < myInventory.myInventory.Count; i++)
         {
+            //create a SerialItem and populate it from the inventory
             SerializableListString.SerialItem SI = new SerializableListString.SerialItem();
             SI.name = myInventory.myInventory[i].itemName;
             SI.count = myInventory.myInventory[i].numberHeld;
-
-
-
-
-
+            
+            //add to our SL - 
             SL.serializableList.Add(SI);
 
-            ////look through our serializable list to see if we can find the item                  
-            //int index = (SL.serializableList.FindIndex(x => x.name == itemName));
-            //if (index >= 0)
-            //{
-            //    //we have an item so let's
-            //    playerInventory.SL.serializableList.Add(thisItem.itemName);
-            //}
+            
         }
     }
 
@@ -92,142 +108,47 @@ public class InventorySaver : MonoBehaviour
     {
         //ResetScriptables();
         Debug.Log("IS: Saving to: " + Application.persistentDataPath);
-
-        //for (int i = 0; i < myInventory.myInventory.Count; i++)
-        //{
-        //open a file
-        //FileStream file = File.Create(Application.persistentDataPath +
-        //    string.Format($"/{i}.inv"));
-
-        //string filepath = Application.persistentDataPath +
-        //    string.Format($"/{i}.inv");
-
+                
+        //filepath
         string filepath = Application.persistentDataPath + "/newsave.json";
-
-            StreamWriter sw = new StreamWriter(filepath);
-
-
-
-        //create a binary formatter
-        //BinaryFormatter binary = new BinaryFormatter();
-        //myInventory.myInventory[i].GetInstanceID;
-        //format the object as json
-        //var json = JsonUtility.ToJson(myInventory.myInventory[i],true);
-
-        //var json = JsonUtility.ToJson(SL.serializableList, true);
-
+        
+        //create a streamwriter
+        StreamWriter sw = new StreamWriter(filepath);
+               
+        //use the JSON library to serialize our serializableList into a JSON object
         JSON jsonObject = JSON.Serialize(SL);
-
+        
+        //turn that JSON object into a pretty formatted string
         string json = jsonObject.CreatePrettyString();
-
-        //Debug.Log(JsonUtility.ToJson(SL,true));
-        //write to the file
-            //binary.Serialize(file, json);
-            sw.WriteLine(json);
-
-              //close the file
-            //file.Close();
-
-            sw.Close();
+        
+        //write to our file
+        sw.WriteLine(json);
+        
+        //close the file
+        sw.Close();
 
 
-        //}
     }
 
 
     public void LoadScriptables()
     {
         Debug.Log("IS: Loading From: " + Application.persistentDataPath);
-
-       string filepath = Application.persistentDataPath + "/newsave.json";
+    
+        //filepath
+        string filepath = Application.persistentDataPath + "/newsave.json";
+        
         if (File.Exists(filepath))
         {
+            //read in the file to a string
             string json = File.ReadAllText(filepath);
+            //use the JSON library to parse the string
             JSON jsonObject = JSON.ParseString(json);
+            //deserialize the JSON object back into our Serializable class
             SL = jsonObject.Deserialize<SerializableListString>();
 
 
         }
-
-            
-
-
-    //        myInventory.SL = JsonUtility.FromJson<SerializableListString>(json);
-    //        if (myInventory.SL.serializableList.Count > 0)
-    //        {
-    //            for (int i = 0; i < myInventory.SL.serializableList.Count; i++)
-    //            {
-    //                //SerializableListString.SerialItem temp = ;
-    //                InventoryItem obj = ItemDB.GetItem(myInventory.SL.serializableList[i]);
-    //                if (obj)
-    //                {
-    //                    myInventory.myInventory.Add(obj);
-    //                    Debug.Log("Added " + obj.itemName + " to inventory");
-    //                    //if(myInventory.myInventory)
-    //                    if (obj.numberHeld == 0)
-    //                    {
-    //                        obj.numberHeld = 1;
-    //                    }
-    //                }
-    //                else
-    //                {
-    //                    Debug.LogError("ITEM DB Not Found: " + myInventory.SL.serializableList[i]);
-    //                }
-    //            }
-    //        }
-    //    }
-
-    //    //int i = 0;
-
-    //    //while (File.Exists(Application.persistentDataPath +
-    //    //    string.Format($"/{i}.inv")))
-    //    //{
-    //    //    //create a temporary object that we can "fill in" with the saved data details
-    //    //    //this is because we can't just load an item into a non existant slot we need to use the list.add() below to restore the inventory
-    //    //    InventoryItem temp = ScriptableObject.CreateInstance<InventoryItem>();
-
-            
-
-    //    //    //FileStream file = File.Open(Application.persistentDataPath +
-    //    //    //string.Format($"/{i}.inv"), FileMode.Open);
-
-    //    //    //BinaryFormatter binary = new BinaryFormatter();
-    //    //    string filepath = Application.persistentDataPath +
-    //    //        string.Format($"/{i}.inv");
-
-    //    //    StreamReader sr = new StreamReader(filepath);
-
-    //    //    string saveJson = "";
-
-    //    //    string line;
-    //    //    while ((line = sr.ReadLine())!= null)
-    //    //    {
-    //    //        saveJson += line;
-    //    //    }
-
-    //    //    JsonUtility.FromJsonOverwrite(saveJson,
-    //    //        temp);
-          
-            
-
-            
-    //    //    // file.Close();
-    //    //    sr.Close();
-
-    //    //    // add the temporary item we filled in to the inventory
-    //    //    myInventory.myInventory.Add(temp);
-
-    //    //    //string _path = UnityEditor.AssetDatabase.GetAssetPath(temp.GetInstanceID());
-    //    //    //if (_path != null)
-    //    //    //{
-    //    //    //    Debug.Log("Path = " + _path);
-    //    //    //    AssetDatabase.AddObjectToAsset(myInventory.myInventory[i], _path);
-    //    //    //}
-            
-
-    //    //    i++;
-
-    //    //}
 
 
         
@@ -285,16 +206,4 @@ public class InventorySaver : MonoBehaviour
     }
 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
