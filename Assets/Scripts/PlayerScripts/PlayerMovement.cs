@@ -85,7 +85,8 @@ public class PlayerMovement : MonoBehaviour
             return; //just return if we are in interact
         }
 
-        change = Vector3.zero;
+        //change = Vector3.zero;
+        //not required input resets the axis.
 
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
@@ -265,7 +266,7 @@ public class PlayerMovement : MonoBehaviour
             //round out move.x and move.y to give finite values to the animation states (8 states)
             change.x = Mathf.Round(change.x);
             change.y = Mathf.Round(change.y);
-            Debug.Log(change);
+            //Debug.Log(change);
             
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);

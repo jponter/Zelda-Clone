@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 1
-  knockTime: 0.3
+  knockTime: 0.2
   otherTag: Player
 --- !u!114 &777941388101385241
 MonoBehaviour:

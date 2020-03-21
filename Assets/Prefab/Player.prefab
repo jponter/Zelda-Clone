@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 7027700687736773760}
   m_Layer: 12
   m_Name: up hit box
-  m_TagString: Player
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 5
+  thrust: 2
   knockTime: 0.2
   otherTag: enemy
 --- !u!1 &7027700688325560273
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 7027700688582385906}
   m_Layer: 12
   m_Name: right hit box
-  m_TagString: Player
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 5
+  thrust: 2
   knockTime: 0.2
   otherTag: enemy
 --- !u!1 &7027700689310969039
@@ -712,7 +712,7 @@ GameObject:
   - component: {fileID: 7027700689310969036}
   m_Layer: 12
   m_Name: left hit box
-  m_TagString: Player
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 5
+  thrust: 2
   knockTime: 0.2
   otherTag: enemy
 --- !u!1 &7027700689375231912
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 7027700689375231917}
   m_Layer: 12
   m_Name: down hit box
-  m_TagString: Player
+  m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -851,6 +851,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 5
+  thrust: 2
   knockTime: 0.2
   otherTag: enemy

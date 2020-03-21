@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 1.5
   knockTime: 0.2
   otherTag: Player
 --- !u!114 &89991659256245484

@@ -285,7 +285,7 @@ MonoBehaviour:
   roomSignal: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 5
-  attackRadius: 1
+  attackRadius: 0.5
   homePosition: {fileID: 0}
 --- !u!114 &3828872978439792131
 MonoBehaviour:
@@ -299,8 +299,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 1
-  knockTime: 0.1
+  thrust: 1.5
+  knockTime: 0.2
   otherTag: Player
 --- !u!1 &3828872978515143817
 GameObject:

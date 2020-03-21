@@ -179,7 +179,7 @@ MonoBehaviour:
   roomSignal: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1.2
+  attackRadius: 0.5
   homePosition: {fileID: 0}
 --- !u!61 &2858343784287198757
 BoxCollider2D:
@@ -219,6 +219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
+  thrust: 1.5
   knockTime: 0.2
   otherTag: Player

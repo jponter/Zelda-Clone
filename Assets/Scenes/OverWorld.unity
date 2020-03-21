@@ -10065,8 +10065,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 688b847bf28b0224bb0d3272b7b12604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 2
-  knockTime: 0.3
+  thrust: 1
+  knockTime: 0.5
   otherTag: Player
 --- !u!1001 &717785188
 PrefabInstance:
@@ -16952,6 +16952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2858343784287198756, guid: 9b5cd9bbb7e2b4249b16df2ff7e2aa19,
+        type: 3}
+      propertyPath: attackRadius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2858343784287198758, guid: 9b5cd9bbb7e2b4249b16df2ff7e2aa19,
         type: 3}
@@ -31941,6 +31946,16 @@ PrefabInstance:
       propertyPath: triggerCollider
       value: 
       objectReference: {fileID: 681399234}
+    - target: {fileID: 7027700688325560277, guid: fb1089fd07c2c8f46b0ef95e2f109236,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027700688325560277, guid: fb1089fd07c2c8f46b0ef95e2f109236,
+        type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7027700688325560279, guid: fb1089fd07c2c8f46b0ef95e2f109236,
         type: 3}
       propertyPath: m_LocalPosition.x
