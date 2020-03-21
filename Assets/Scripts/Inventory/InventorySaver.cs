@@ -15,11 +15,23 @@ and recreate the inventory from that lookup table
 
 Utilises the Total JSON library to serialize the class out (class contains a List of Structs)
 see SerializbleListString.cs for details of that class
-*/ 
+
+Addition: Has an option to save out in binary too! toggle via the inspector - uses the BinarySaver Class - which was contributed to by
+my good friend Ashfid from the Mister Taft Discord Server! - Thanks buddy :)
+
+
+*/
+
+public enum SaveSwitch
+{
+    json,
+    binary
+}
 
 public class InventorySaver : MonoBehaviour
 {
     [SerializeField] private PlayerInventory myInventory;
+    public SaveSwitch saveType = SaveSwitch.json;
 
     public ItemDatabase ItemDB;
 
@@ -53,6 +65,7 @@ public class InventorySaver : MonoBehaviour
 
     private void ImportSaveData()
     {
+        Debug.Log("Import Save Data " + SL.serializableList.Count);
         //go through the Sl and rebuild the items in the inventory
         for (int i = 0; i < SL.serializableList.Count; i++)
         {
@@ -92,7 +105,9 @@ public class InventorySaver : MonoBehaviour
         for (int i = 0; i < myInventory.myInventory.Count; i++)
         {
             //create a SerialItem and populate it from the inventory
-            SerializableListString.SerialItem SI = new SerializableListString.SerialItem();
+            //SerializableListString.SerialItem SI = new SerializableListString.SerialItem();
+
+            SerialItem SI = new SerialItem();
             SI.name = myInventory.myInventory[i].itemName;
             SI.count = myInventory.myInventory[i].numberHeld;
             
@@ -108,34 +123,90 @@ public class InventorySaver : MonoBehaviour
     {
         //ResetScriptables();
         Debug.Log("IS: Saving to: " + Application.persistentDataPath);
-                
+
+
+        switch (saveType)
+        {
+            case SaveSwitch.json:
+                Debug.Log("Save is via json");
+                JSONSave();
+                break;
+            
+            case SaveSwitch.binary:
+                Debug.Log("Save is via binary");
+                BinarySave();
+
+                break;
+           
+            default:
+                break;
+        }
+        
+
+
+    }
+
+    private void BinarySave()
+    {
+        BinarySaver.Save(SL.serializableList, "Inventory");
+    }
+
+    private void BinaryLoad()
+    {
+        SL.serializableList = BinarySaver.Load<List<SerialItem>>("Inventory");
+    }
+
+    private void JSONSave()
+    {
         //filepath
         string filepath = Application.persistentDataPath + "/newsave.json";
-        
+
         //create a streamwriter
         StreamWriter sw = new StreamWriter(filepath);
-               
+
         //use the JSON library to serialize our serializableList into a JSON object
         JSON jsonObject = JSON.Serialize(SL);
-        
+
         //turn that JSON object into a pretty formatted string
         string json = jsonObject.CreatePrettyString();
-        
+
         //write to our file
         sw.WriteLine(json);
-        
+
         //close the file
         sw.Close();
-
-
     }
 
 
     public void LoadScriptables()
     {
         Debug.Log("IS: Loading From: " + Application.persistentDataPath);
-    
-        //filepath
+
+
+        switch (saveType)
+        {
+            case SaveSwitch.json:
+                Debug.Log("Load is via json");
+                JSONLoad();
+                break;
+
+            case SaveSwitch.binary:
+                Debug.Log("Load is via binary");
+                BinaryLoad();
+
+                break;
+            
+            
+            default:
+                break;
+        }
+    }
+
+
+    public void JSONLoad()
+    {
+
+            //filepath
         string filepath = Application.persistentDataPath + "/newsave.json";
         
         if (File.Exists(filepath))
@@ -150,60 +221,11 @@ public class InventorySaver : MonoBehaviour
 
         }
 
-
-        
+     
 
     }
 
-    public void ResetScriptables()
-    {
-        Debug.Log("Resetting Scriptables");
-        //for (int i = 0; i < myInventory.myInventory.Count; i++)
-        //{
-        // this is from the GameSaveManager script - not using at the moment
-        //switch (objects[i].GetType().FullName)
-        //{
-        //    case "FloatValue":
-        //        FloatValue ftmp = (FloatValue)objects[i];
-        //        ftmp.RuntimeValue = ftmp.initialValue;
-        //        Debug.Log("resetting FloatValue");
-        //        break;
-
-        //    case "BoolValue":
-        //        BoolValue btmp = (BoolValue)objects[i];
-        //        btmp.RuntimeValue = btmp.initialValue;
-        //        Debug.Log("resetting BoolValue");
-        //        break;
-
-        //    case "Inventory":
-        //        Inventory itmp = (Inventory)objects[i];
-        //        itmp.coins = 0;
-        //        itmp.maxMagic = 10;
-        //        itmp.items.Clear();
-        //        itmp.numberOfKeys = 0;
-        //        Debug.Log("Inventory Reset");
-        //        break;
-
-
-
-        //    default:
-        //        break;
-        //}
-
-
-
-        int i = 0;
-        while (File.Exists(Application.persistentDataPath +
-            string.Format($"/{i}.inv")))
-        {
-            File.Delete(Application.persistentDataPath +
-            string.Format($"/{i}.inv"));
-            i++;
-        }
-
-
-        
-    }
+   
 
 
 }

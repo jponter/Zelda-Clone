@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public enum PlayerState
 {
     walk,
@@ -23,9 +24,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 change;
 
     //todo: HEALTH break off health  into own component
-    public FloatValue currentHealth;
+    //public FloatValue currentHealth;
     public FloatValue currentMagic;
-    public Signal playerHealthSignal;
+    //public Signal playerHealthSignal;
     public Signal playerMagicSignal;
 
     //todo: HEALTH break off playerHit should be in health maybe
@@ -116,8 +117,10 @@ public class PlayerMovement : MonoBehaviour
     }
 
     //todo:  move knockback to own script
-    public void Knock(float knockTime, float damage)
+    public void Knock(float knockTime)
     {
+        StartCoroutine(KnockCo(knockTime));
+        /*
         currentHealth.RuntimeValue -= damage;
 
         //todo: HEALTH
@@ -132,6 +135,7 @@ public class PlayerMovement : MonoBehaviour
         {
             this.gameObject.SetActive(false);
         }
+        */
     }
     //todo: move knockback to own script
     private IEnumerator KnockCo(float knockTime)
@@ -261,7 +265,8 @@ public class PlayerMovement : MonoBehaviour
             //round out move.x and move.y to give finite values to the animation states (8 states)
             change.x = Mathf.Round(change.x);
             change.y = Mathf.Round(change.y);
-
+            Debug.Log(change);
+            
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
             animator.SetBool("moving", true);
@@ -276,6 +281,7 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveCharacter()
     {
+        //Debug.Log(transform.position + change * speed * Time.deltaTime);
         change.Normalize();
         myRigidBody.MovePosition(transform.position + change * speed * Time.deltaTime);
     }

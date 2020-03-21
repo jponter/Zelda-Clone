@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 5849325189442884660, guid: d844d6164e3eed4439ce57e58506757e,
     type: 3}
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 1
   knockTime: 0.3
-  damage: 2
+  otherTag: Player
 --- !u!114 &777941388101385241
 MonoBehaviour:
   m_ObjectHideFlags: 0

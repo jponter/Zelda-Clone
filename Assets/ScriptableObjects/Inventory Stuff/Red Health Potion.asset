@@ -16,7 +16,7 @@ MonoBehaviour:
   itemDescription: It feels warm in your hand! I wonder what it does?
   itemImage: {fileID: -2604527537816536453, guid: 2f0dc37382fc0c142822e07d098def78,
     type: 3}
-  numberHeld: 2
+  numberHeld: 3
   usable: 1
   unique: 0
   thisEvent:

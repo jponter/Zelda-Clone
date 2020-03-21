@@ -18,7 +18,7 @@ public class CameraMovement : MonoBehaviour
     public VectorValue camMin;
     public VectorValue camMax;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame updatetra
     void Start()
     {
 
@@ -41,6 +41,7 @@ public class CameraMovement : MonoBehaviour
             targetPosition.y = Mathf.Clamp(targetPosition.y, minPosition.y, maxPosition.y);
 
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
+            
         }
 
 

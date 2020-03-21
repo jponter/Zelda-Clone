@@ -1,5 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1373102140818100591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3362768910459368350}
+  - component: {fileID: 7445934721764694343}
+  - component: {fileID: 205046251126579914}
+  m_Layer: 12
+  m_Name: PlayerHealth
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3362768910459368350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373102140818100591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7027700688325560279}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &7445934721764694343
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373102140818100591}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0059990883, y: -0.13398027}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 2}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6680479, y: 0.9961462}
+  m_EdgeRadius: 0
+--- !u!114 &205046251126579914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373102140818100591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224674df297a3b841a69dd4844743d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: {fileID: 11400000, guid: e825c1ab5ab631d4da701a84a221c8f9, type: 2}
+  currentHealth: 0
+  healthSignal: {fileID: 11400000, guid: 7ccb2e2caffc9a140b196f32b024150d, type: 2}
 --- !u!1 &4603913761550591217
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   knockTime: 0.2
-  damage: 1
+  otherTag: enemy
 --- !u!1 &7027700688325560273
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +356,6 @@ GameObject:
   - component: {fileID: 7027700688325560278}
   - component: {fileID: 7027700688325560276}
   - component: {fileID: 7027700688325560283}
-  - component: {fileID: 7027700688325560282}
   - component: {fileID: 1160593435}
   - component: {fileID: 1160593437}
   - component: {fileID: 2003624549}
@@ -311,6 +383,7 @@ Transform:
   - {fileID: 7027700689310969038}
   - {fileID: 6469486534523092458}
   - {fileID: 4669582188810992933}
+  - {fileID: 3362768910459368350}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -426,9 +499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 4
   speed: 6
-  currentHealth: {fileID: 11400000, guid: e825c1ab5ab631d4da701a84a221c8f9, type: 2}
   currentMagic: {fileID: 11400000, guid: 90c8d4cc2a46bf94e89b392f8d8ea07e, type: 2}
-  playerHealthSignal: {fileID: 11400000, guid: 7ccb2e2caffc9a140b196f32b024150d, type: 2}
   playerMagicSignal: {fileID: 11400000, guid: 9ba8158728d45ba4fbb09be9e98a6528, type: 2}
   playerHit: {fileID: 11400000, guid: 278c1124a5761954c8b49ec7bcea604b, type: 2}
   reduceMagic: {fileID: 11400000, guid: 9a63c2014d6682d4abc549661d351e49, type: 2}
@@ -442,7 +513,7 @@ MonoBehaviour:
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDuration: 0.07
   numberOfFlashes: 4
-  triggerCollider: {fileID: 7027700688325560282}
+  triggerCollider: {fileID: 0}
   mySrpite: {fileID: 7027700688325560272}
 --- !u!95 &7027700688325560283
 Animator:
@@ -463,32 +534,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &7027700688325560282
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7027700688325560273}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0059990883, y: -0.13398027}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
-    newSize: {x: 1, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6680479, y: 0.9961462}
-  m_EdgeRadius: 0
 --- !u!114 &1160593435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   knockTime: 0.2
-  damage: 1
+  otherTag: enemy
 --- !u!1 &7027700689310969039
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   knockTime: 0.2
-  damage: 1
+  otherTag: enemy
 --- !u!1 &7027700689375231912
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,4 +853,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 5
   knockTime: 0.2
-  damage: 1
+  otherTag: enemy

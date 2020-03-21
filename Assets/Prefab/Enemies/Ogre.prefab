@@ -75,7 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  damage: 1
+  otherTag: 
 --- !u!1 &3828872978439792139
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -4753886741560322309, guid: 271fd2958d5b7df45a9f8a34051ad611,
     type: 3}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 1
   knockTime: 0.1
-  damage: 1
+  otherTag: Player
 --- !u!1 &3828872978515143817
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  damage: 1
+  otherTag: 
 --- !u!1 &3828872979743416484
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  damage: 1
+  otherTag: 
 --- !u!1 &3828872980390528062
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,4 +533,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  damage: 1
+  otherTag: 
