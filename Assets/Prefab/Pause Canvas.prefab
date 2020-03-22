@@ -630,10 +630,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 100223347993080518}
-  inventoryPanel: {fileID: 0}
+  inventoryPanel: {fileID: 2034398877894891345}
   usingPausePanel: 0
   mainMenu: StartMenu
-  MainHUD: {fileID: 0}
+  MainHUD: {fileID: 8626928569421904155, guid: e64797a082cae0841b6f2e38f5d52878, type: 3}
 --- !u!1 &100223349177512962
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,7 +18,7 @@ public class Knockback : MonoBehaviour
 
         //thisTag = gameObject.tag;
         
-        if (other.gameObject.CompareTag("breakable") && this.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("breakable") && this.gameObject.CompareTag("PlayerWeapon"))
         {
             other.GetComponent<Pot>().Smash();
         }

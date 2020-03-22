@@ -29,7 +29,23 @@ public class Log : Enemy
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         anim.SetBool("wakeUp", true);
+        //Debug.Log(anim.gameObject.name);
     }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (Application.isPlaying)
+        {
+            Gizmos.DrawLine(transform.position, target.position);
+            Gizmos.DrawWireSphere(transform.position, chaseRadius);
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, attackRadius);
+        }
+    
+          
+    
+    }
+
 
     // Update is called once per frame
     void FixedUpdate()

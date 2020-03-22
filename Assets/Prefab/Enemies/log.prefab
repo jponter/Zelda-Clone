@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2858343784287198756}
   - component: {fileID: 2858343784287198757}
   - component: {fileID: 2858343784287199194}
+  - component: {fileID: 5863993458044222297}
+  - component: {fileID: 8345652331136977753}
   m_Layer: 9
   m_Name: log
   m_TagString: enemy
@@ -171,9 +173,6 @@ MonoBehaviour:
   enemyName: Larry the Log
   baseAttack: 1
   moveSpeed: 1
-  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
-    type: 3}
-  thisLoot: {fileID: 0}
   home: {x: 0, y: 0}
   currentState: 0
   roomSignal: {fileID: 0}
@@ -222,3 +221,35 @@ MonoBehaviour:
   thrust: 1.5
   knockTime: 0.2
   otherTag: Player
+--- !u!114 &5863993458044222297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2858343784287198754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8545386f9db72a441927b83633fcf7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  otherTag: Player
+--- !u!114 &8345652331136977753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2858343784287198754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614d59645df1d94998a99368049b4cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
+  currentHealth: 0
+  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
+    type: 3}
+  deathEffectDelay: 0.7
+  thisLoot: {fileID: 11400000, guid: 9f565a1eccb82104a9dad6eef9eb2a02, type: 2}

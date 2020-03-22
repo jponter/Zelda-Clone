@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: TwoHitEnemyHealth
   m_EditorClassIdentifier: 
   initialValue: 2
+  RuntimeValue: 2

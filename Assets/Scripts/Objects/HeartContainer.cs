@@ -18,6 +18,7 @@ public class HeartContainer : Powerup
             heartContainers.RuntimeValue += 1;
             //full health
             playerHealth.RuntimeValue = heartContainers.RuntimeValue * 2;
+            other.gameObject.GetComponentInChildren<GenericHealth>().FullHeal();
             //raise the signal to update the UI
             powerupSignal.Raise();
             //destroy me

@@ -75,7 +75,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  otherTag: 
+  otherTag: Player
 --- !u!1 &3828872978439792139
 GameObject:
   m_ObjectHideFlags: 0
@@ -378,7 +378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  otherTag: 
+  otherTag: Player
 --- !u!1 &3828872979743416484
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  otherTag: 
+  otherTag: Player
 --- !u!1 &3828872980390528062
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,4 +533,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   knockTime: 0.2
-  otherTag: 
+  otherTag: Player

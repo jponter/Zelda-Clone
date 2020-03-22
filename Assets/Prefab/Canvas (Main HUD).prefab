@@ -179,6 +179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   magicSlider: {fileID: 1320127104}
   playerInventory: {fileID: 11400000, guid: 9301115745f619541bba71b835feead8, type: 2}
+  playerMagic: {fileID: 11400000, guid: 90c8d4cc2a46bf94e89b392f8d8ea07e, type: 2}
 --- !u!114 &1320127106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,7 +665,7 @@ GameObject:
   - component: {fileID: 8626928569421904153}
   - component: {fileID: 8626928569421904152}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Canvas (Main HUD)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

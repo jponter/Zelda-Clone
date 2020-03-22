@@ -8,9 +8,7 @@ public class Projectile : MonoBehaviour
     public float moveSpeed;
     public Vector2 directionToMove;
     
-    [Header("Lifetime")]
-    public float lifetime;
-    private float lifetimeSeconds;
+
 
     public Rigidbody2D myRigidbody2D;
 
@@ -20,18 +18,14 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
-        lifetimeSeconds = lifetime;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        lifetimeSeconds -= Time.deltaTime;
-        if (lifetimeSeconds <= 0)
-        {
-            Destroy(this.gameObject);
-        }
+       
 
     }
 

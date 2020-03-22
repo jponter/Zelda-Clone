@@ -20,10 +20,8 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
-    [Header("Death Stuff")]
-    public GameObject deathEffect;
-    private float deathEffectDelay = 1f;
-    public LootTable thisLoot;
+  
+ 
     public Vector2 home;
     private bool setUp = true;
 
@@ -38,6 +36,8 @@ public class Enemy : MonoBehaviour
         StartCoroutine(KnockCo(myRigidbody, knockTime));
         //TakeDamage(damage);
     }
+
+  
 
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
     {
@@ -80,8 +80,8 @@ public class Enemy : MonoBehaviour
         health -= damage;
         if(health <= 0)
         {
-            DeathEffect();
-            MakeLoot();
+            //DeathEffect();
+            //MakeLoot();
 
             this.gameObject.SetActive(false);
 
@@ -94,26 +94,40 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void DeathEffect()
+   
+
+    public void Die()
     {
-        if(deathEffect != null)
-        {
-            GameObject effect = Instantiate(deathEffect, transform.position , Quaternion.identity);
-            Destroy(effect, deathEffectDelay);
-        }
+        //DeathEffect();
+        //MakeLoot();
+
+        this.gameObject.SetActive(false);
+
+       
+
     }
 
-    private void MakeLoot()
-    {
-        if (thisLoot != null)
-        {
-            Powerup current = thisLoot.LootPowerup();
-            if (current != null)
-            {
-                Instantiate(current.gameObject, transform.position, Quaternion.identity);
-            }
-        }
-    }
+
+    //private void DeathEffect()
+    //{
+    //    if(deathEffect != null)
+    //    {
+    //        GameObject effect = Instantiate(deathEffect, transform.position , Quaternion.identity);
+    //        Destroy(effect, deathEffectDelay);
+    //    }
+    //}
+
+    //private void MakeLoot()
+    //{
+    //    if (thisLoot != null)
+    //    {
+    //        Powerup current = thisLoot.LootPowerup();
+    //        if (current != null)
+    //        {
+    //            Instantiate(current.gameObject, transform.position, Quaternion.identity);
+    //        }
+    //    }
+    //}
 
 
     // Start is called before the first frame update

@@ -11,6 +11,7 @@ public class GenericHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth.RuntimeValue;
+        Debug.Log(this.gameObject.name + " health to " + currentHealth);
     }
 
     // Update is called once per frame
@@ -37,9 +38,10 @@ public class GenericHealth : MonoBehaviour
     public virtual void Damage(float amountToDamage)
     {
         currentHealth -= amountToDamage;
-        if(currentHealth < 0)
+        if(currentHealth <= 0)
         {
             currentHealth = 0;
+            
         }
     }
 
