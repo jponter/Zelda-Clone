@@ -217,11 +217,7 @@ public class InventorySaver : MonoBehaviour
             JSON jsonObject = JSON.ParseString(json);
             //deserialize the JSON object back into our Serializable class
             SL = jsonObject.Deserialize<SerializableListString>();
-
-
-        }
-
-     
+        }   
 
     }
 
