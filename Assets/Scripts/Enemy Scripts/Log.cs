@@ -16,7 +16,7 @@ public class Log : Enemy
     public Transform homePosition;
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
         currentState = enemyState.idle;
 

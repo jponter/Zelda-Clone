@@ -8,22 +8,41 @@ public class TurretEnemy : Log
     public GameObject projectile;
     public float fireDelay;
     private float fireDelaySeconds;
-    public bool canFire = true;
+    public bool canFire = false;
 
 
-    private void Update()
+    public override void Start()
     {
-        fireDelaySeconds -= Time.deltaTime;
+        //base class first
+        base.Start();
+        //necessary to set the fireDelaySeconds or 2 projectiles will be fired on first iteration
+        fireDelaySeconds = fireDelay;
+    }
+    
+    public void CanFire()
+    {
+        //moved from update as we already call CheckDistance in fixed update of base
+        //seperated out to own function for readability
 
-        if(fireDelaySeconds <= 0)
+        if (currentState != enemyState.idle)
         {
-            canFire = true;
-            fireDelaySeconds = fireDelay;
+            fireDelaySeconds -= Time.deltaTime;
+
+            if (fireDelaySeconds <= 0)
+            {
+                canFire = true;
+                fireDelaySeconds = fireDelay;
+            }
         }
     }
 
     public override void CheckDistance()
     {
+        //can we fire?
+        CanFire();
+        
+
+
         if (player.activeSelf == true)
         {
 

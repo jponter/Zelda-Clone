@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 3828872978439792137}
   - component: {fileID: 3828872978439792138}
   - component: {fileID: 3828872978439792131}
+  - component: {fileID: 6476982704749339966}
   m_Layer: 9
   m_Name: Ogre
   m_TagString: enemy
@@ -277,9 +278,6 @@ MonoBehaviour:
   enemyName: Ogre
   baseAttack: 4
   moveSpeed: 1
-  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
-    type: 3}
-  thisLoot: {fileID: 11400000, guid: 9f565a1eccb82104a9dad6eef9eb2a02, type: 2}
   home: {x: 0, y: 0}
   currentState: 1
   roomSignal: {fileID: 0}
@@ -302,6 +300,24 @@ MonoBehaviour:
   thrust: 1.5
   knockTime: 0.2
   otherTag: Player
+--- !u!114 &6476982704749339966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3828872978439792139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614d59645df1d94998a99368049b4cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
+  currentHealth: 0
+  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
+    type: 3}
+  deathEffectDelay: 1
+  thisLoot: {fileID: 11400000, guid: 771513d3f1eeabe4c90f884e86d6c0cd, type: 2}
 --- !u!1 &3828872978515143817
 GameObject:
   m_ObjectHideFlags: 0

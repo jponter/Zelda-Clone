@@ -153,7 +153,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 1926610614}
   m_HandleRect: {fileID: 0}
@@ -567,11 +567,11 @@ RectTransform:
   m_Children:
   - {fileID: 1588034050334701556}
   m_Father: {fileID: 8626928569421904159}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 55.099976, y: 29.800049}
+  m_AnchoredPosition: {x: 57, y: -569}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &717357646036664530
@@ -682,10 +682,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 1101194919106674321}
   - {fileID: 8626928569567350104}
   - {fileID: 8626928570090073291}
   - {fileID: 8626928569492138557}
-  - {fileID: 1101194919106674321}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -861,7 +861,7 @@ RectTransform:
   - {fileID: 8626928570763485216}
   - {fileID: 1320127102}
   m_Father: {fileID: 8626928569421904159}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -963,7 +963,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8626928569421904159}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1133,7 +1133,7 @@ RectTransform:
   m_Children:
   - {fileID: 8626928570063406171}
   m_Father: {fileID: 8626928569421904159}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}

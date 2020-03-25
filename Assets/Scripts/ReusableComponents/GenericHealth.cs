@@ -11,6 +11,7 @@ public class GenericHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth.RuntimeValue;
+      
         Debug.Log(this.gameObject.name + " health to " + currentHealth);
     }
 
@@ -18,6 +19,11 @@ public class GenericHealth : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnEnable()
+    {
+        currentHealth = maxHealth.RuntimeValue;
     }
 
 

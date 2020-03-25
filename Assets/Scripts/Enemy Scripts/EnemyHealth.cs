@@ -7,24 +7,13 @@ public class EnemyHealth : GenericHealth
    
 
     [Header("Death Stuff")]
-    [SerializeField] private GameObject deathEffect;
+    public GameObject deathEffect;
     [SerializeField] private float deathEffectDelay = 1f;
 
-    [Header("Loot Stuff")]
-    [SerializeField] private LootTable thisLoot;
+    
 
 
-    private void MakeLoot()
-    {
-        if (thisLoot != null)
-        {
-            Powerup current = thisLoot.LootPowerup();
-            if (current != null)
-            {
-                Instantiate(current.gameObject, transform.position, Quaternion.identity);
-            }
-        }
-    }
+    
 
     public override void Damage(float damage)
     {
@@ -51,7 +40,11 @@ public class EnemyHealth : GenericHealth
 
     void Die()
     {
-        MakeLoot();
+        EnemyLoot Loot = GetComponent<EnemyLoot>();
+        if (Loot)
+        {
+            Loot.MakeLoot();
+        }
         DeathEffect();
         this.gameObject.SetActive(false);
     }
