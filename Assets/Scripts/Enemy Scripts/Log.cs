@@ -48,7 +48,7 @@ public class Log : Enemy
 
 
     // Update is called once per frame
-    void FixedUpdate()
+    public virtual void FixedUpdate()
     {
         CheckDistance();
     }
@@ -56,6 +56,7 @@ public class Log : Enemy
 
     public virtual void CheckDistance()
     {
+        //Debug.Log("Log.cs CD");
         if (player.activeSelf == true)
         {
 

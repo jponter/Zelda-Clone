@@ -7,6 +7,7 @@ TagManager:
   - breakable
   - enemy
   - PlayerWeapon
+  - pushable
   layers:
   - Default
   - TransparentFX
@@ -22,9 +23,9 @@ TagManager:
   - Player Projectile
   - Player
   - Objects
-  - 
-  - 
-  - 
+  - Moveable Objects
+  - Moveable Boundaries
+  - Object Collider
   - 
   - 
   - 
@@ -49,6 +50,9 @@ TagManager:
     locked: 0
   - name: Breakables
     uniqueID: 38541611
+    locked: 0
+  - name: Objects
+    uniqueID: 1717998113
     locked: 0
   - name: Player
     uniqueID: 3946377485

@@ -1,0 +1,661 @@
+fileFormatVersion: 2
+guid: 2734ae763429a4f478974782ed3ba857
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9199450255382965567
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_0
+  - first:
+      213: -8284609688471576450
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_1
+  - first:
+      213: 3738206072742005024
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_2
+  - first:
+      213: 1570979157722781844
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_3
+  - first:
+      213: -9009424109637462747
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_4
+  - first:
+      213: -579457739970163907
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_5
+  - first:
+      213: -9143087696282245038
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_6
+  - first:
+      213: -1716941495403446138
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_7
+  - first:
+      213: -6018089255123336813
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_8
+  - first:
+      213: 1318765017374864187
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_9
+  - first:
+      213: -2413018363715547824
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_10
+  - first:
+      213: 4887657349887959981
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_11
+  - first:
+      213: 6032865855638358962
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_12
+  - first:
+      213: -205389979896565516
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_13
+  - first:
+      213: 5100658434572873290
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_14
+  - first:
+      213: -3387289313849414509
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_15
+  - first:
+      213: -6354768518492857619
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_16
+  - first:
+      213: 1392920992758674731
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_17
+  - first:
+      213: 260999143446847539
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_18
+  - first:
+      213: -6019069450460515611
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_19
+  - first:
+      213: -2003956122335086219
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_20
+  - first:
+      213: 1017859503503885440
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_21
+  - first:
+      213: -1255211925916114767
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_22
+  - first:
+      213: 4492394732382720661
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_23
+  - first:
+      213: 2909973396565780496
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_24
+  - first:
+      213: -4711369182163386721
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_25
+  - first:
+      213: 6733291661692979423
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_26
+  - first:
+      213: 656889724111305879
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_27
+  - first:
+      213: -8888633359694560424
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_28
+  - first:
+      213: -1150674059297921113
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_29
+  - first:
+      213: 4140526865097566288
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_30
+  - first:
+      213: 2028590528077410392
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_31
+  - first:
+      213: -6087846967953659631
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_32
+  - first:
+      213: 5789614586530070461
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_33
+  - first:
+      213: 8143291816547311439
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_34
+  - first:
+      213: -251819860419172593
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_35
+  - first:
+      213: -896887811055553303
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_36
+  - first:
+      213: -3188509586329815933
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_37
+  - first:
+      213: 3170844717018015885
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_38
+  - first:
+      213: -7567223795488516085
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_39
+  - first:
+      213: 7295295615183946526
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_40
+  - first:
+      213: -779818403291786387
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_41
+  - first:
+      213: -5536944781636223580
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_42
+  - first:
+      213: 1090808140715767483
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_43
+  - first:
+      213: 2296824652489499996
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_44
+  - first:
+      213: -6187139140166415272
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_45
+  - first:
+      213: -3378919653190761315
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_46
+  - first:
+      213: -8223760836774929071
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_47
+  - first:
+      213: -4580938969084576404
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_48
+  - first:
+      213: 4115431863437058989
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_49
+  - first:
+      213: -5741650593918753618
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_50
+  - first:
+      213: 8387575883390443610
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_51
+  - first:
+      213: 3559967591451181796
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_52
+  - first:
+      213: 8910127625333202835
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_53
+  - first:
+      213: 6351899474892215210
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_54
+  - first:
+      213: -2328898545396828815
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_55
+  - first:
+      213: -9413316848179951
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_56
+  - first:
+      213: 3379744814116653571
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_57
+  - first:
+      213: 4334234472446049183
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_58
+  - first:
+      213: -3133331065248441650
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_59
+  - first:
+      213: -7321605803172503583
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_60
+  - first:
+      213: -5877649398729011846
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_61
+  - first:
+      213: -1517829311755999600
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_62
+  - first:
+      213: 5650234183693164495
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_63
+  - first:
+      213: 1022378641442743348
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_64
+  - first:
+      213: -6275837921130186146
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_65
+  - first:
+      213: 505633020728121866
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_66
+  - first:
+      213: -8957565770803707458
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_67
+  - first:
+      213: -5066435950995206984
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_68
+  - first:
+      213: -5998230300994512769
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_69
+  - first:
+      213: -2990844630977905644
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_70
+  - first:
+      213: 5090504718173574214
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_71
+  - first:
+      213: 4669448981307886334
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_72
+  - first:
+      213: -365250368377903474
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_73
+  - first:
+      213: -1114769117740652784
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_74
+  - first:
+      213: -2017595439749184679
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_75
+  - first:
+      213: -7647842606285950249
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_76
+  - first:
+      213: -989825646450062437
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_77
+  - first:
+      213: -3142398552343722144
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_78
+  - first:
+      213: 4125465600866005225
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_79
+  - first:
+      213: -6802604240152112946
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_80
+  - first:
+      213: 8997904230099461980
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_81
+  - first:
+      213: 6849217181883692504
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_82
+  - first:
+      213: -3930401022785403141
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_83
+  - first:
+      213: -6724388776070197570
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_84
+  - first:
+      213: -8666076464851883735
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_85
+  - first:
+      213: 7532190849912809280
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_86
+  - first:
+      213: -2034736626983264495
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_87
+  - first:
+      213: -6656357253555161963
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_88
+  - first:
+      213: 6216988411541332532
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_89
+  - first:
+      213: -8677290859111981438
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_90
+  - first:
+      213: 7755533055117428897
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_91
+  - first:
+      213: 5683225935390226924
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_92
+  - first:
+      213: -924579362064068758
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_93
+  - first:
+      213: -7028334966765959582
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_94
+  - first:
+      213: 4952337506590373657
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_95
+  - first:
+      213: -5511578594024161909
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_96
+  - first:
+      213: 8278293544196480889
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_97
+  - first:
+      213: -2941727899232864462
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_98
+  - first:
+      213: 9222851899571412650
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_99
+  - first:
+      213: 2960102820429033993
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_100
+  - first:
+      213: -2568823788698795254
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_101
+  - first:
+      213: -4347449917752785551
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_102
+  - first:
+      213: 4953582385560375216
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_103
+  - first:
+      213: 3518446624385461560
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_104
+  - first:
+      213: -138910276551590336
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_105
+  - first:
+      213: 6503254220591688402
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_106
+  - first:
+      213: 732849759746734404
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_107
+  - first:
+      213: 2028579126295744615
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_108
+  - first:
+      213: 4822978062578245369
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_109
+  - first:
+      213: 5005289610215492794
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_110
+  - first:
+      213: -1714726565737999046
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_111
+  - first:
+      213: -2692524893458149409
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_112
+  - first:
+      213: -4668091170027014452
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_113
+  - first:
+      213: -7494763286114745299
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_114
+  - first:
+      213: -1043549714474336145
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_115
+  - first:
+      213: -7328789397613325213
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_116
+  - first:
+      213: -3369378707421288531
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_117
+  - first:
+      213: -1370423549105333045
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_118
+  - first:
+      213: -6953482129852941641
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_119
+  - first:
+      213: -3305724632247044645
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_120
+  - first:
+      213: 7469074100896256433
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_121
+  - first:
+      213: -8267938229689096423
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_122
+  - first:
+      213: 4027497047439973865
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_123
+  - first:
+      213: 6594628775407587638
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_124
+  - first:
+      213: 1226902766008329178
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_125
+  - first:
+      213: -5738144627603711367
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_126
+  - first:
+      213: -4951775643624846781
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_127
+  - first:
+      213: 7926646038455025776
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_128
+  - first:
+      213: 1690498809702374904
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_129
+  - first:
+      213: 446901781374372803
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_130
+  - first:
+      213: 1431508789487791733
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_131
+  - first:
+      213: -5945584064546086938
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_132
+  - first:
+      213: -2925929483892808949
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_133
+  - first:
+      213: 1274758749441348038
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_134
+  - first:
+      213: -1406558096497959644
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_135
+  - first:
+      213: -3161796907706092773
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_136
+  - first:
+      213: -7946225667459555708
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_137
+  - first:
+      213: -8127681270737396449
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_138
+  - first:
+      213: -5098762501513371477
+    second: SNES - The Legend of Zelda A Link to the Past - Trinexx_139
+  - first:
+      213: -4305215445559701937
+    second: Trinexx_RedHead
+  - first:
+      213: -3471033916761164689
+    second: Trinexx_BlueHead
+  - first:
+      213: -7310586912242716509
+    second: Trinexx_NeckRed
+  - first:
+      213: 3356804504963608334
+    second: Trinexx_NeckBlue
+  - first:
+      213: 6627016997600255879
+    second: Trinexx_2
+  - first:
+      213: 6963410439435007773
+    second: Trinexx_Body
+  - first:
+      213: -1111595915182489586
+    second: Trinexx_4
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Trinexx_RedHead
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 405
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e83edbc5dc044c0800000000000000
+      internalID: -4305215445559701937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trinexx_BlueHead
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 405
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f643e140b0964dfc0800000000000000
+      internalID: -3471033916761164689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trinexx_NeckRed
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 388
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0372cbfe39b8a90800000000000000
+      internalID: -7310586912242716509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trinexx_NeckBlue
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 388
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f69c289e3c59e20800000000000000
+      internalID: 3356804504963608334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trinexx_Body
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 333
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1735c3a6e003a060800000000000000
+      internalID: 6963410439435007773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

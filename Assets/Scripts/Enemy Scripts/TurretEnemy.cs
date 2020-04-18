@@ -56,7 +56,10 @@ public class TurretEnemy : Log
             && currentState != enemyState.stagger)
                 {
                     ChangeState(enemyState.walk);
-                    anim.SetBool("wakeUp", true);
+                    if (anim)
+                    {
+                        anim.SetBool("wakeUp", true);
+                    }
                     if (canFire)
                     {
                         Debug.Log("Turret can fire!");
@@ -80,14 +83,19 @@ public class TurretEnemy : Log
             else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
             {
                 ChangeState(enemyState.idle);
-                anim.SetBool("wakeUp", false);
-
+                if (anim)
+                {
+                    anim.SetBool("wakeUp", false);
+                }
             }
 
         } else
         {
             ChangeState(enemyState.idle);
-            anim.SetBool("wakeUp", false);
+            if (anim)
+            {
+                anim.SetBool("wakeUp", false);
+            }
             myRigidbody.velocity = Vector2.zero;
         }
     }
