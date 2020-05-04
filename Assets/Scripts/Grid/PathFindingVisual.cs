@@ -9,6 +9,8 @@ public class PathFindingVisual : MonoBehaviour
     private Mesh mesh;
     private bool updateMesh;
 
+    public bool useMesh = false;
+
     private Vector2 gridValueUV;
      
 
@@ -39,10 +41,13 @@ public class PathFindingVisual : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        if (updateMesh)
+        if (useMesh)
         {
-            updateMesh = false;
-            UpdateVisual();
+            if (updateMesh)
+            {
+                updateMesh = false;
+                UpdateVisual();
+            }
         }
     }
 
@@ -75,4 +80,40 @@ public class PathFindingVisual : MonoBehaviour
 
     }
 
+    public void OnDrawGizmos()
+    {
+        
+        float cellSize = 0;
+
+
+        if (grid != null)
+        {
+            cellSize = grid.GetCellSize();
+        }
+
+        if (grid != null)
+        {
+
+            Vector3 quadSize = new Vector3(1, 1) * cellSize;
+
+            for (int x = 0; x < grid.GetWidth(); x++)
+            {
+                for (int y = 0; y < grid.GetHeight(); y++)
+                {
+                    PathNode pathNode = grid.GetGridObject(x, y);
+                    Gizmos.color = Color.white;
+                    Gizmos.DrawWireCube(grid.GetWorldPosition(x, y) + (quadSize * 0.5f), new Vector3(cellSize, cellSize));
+
+                    if (!pathNode.isWalkable)
+                    {
+                        Gizmos.color = Color.yellow;
+                        Gizmos.DrawSphere(grid.GetWorldPosition(x, y) + (quadSize * 0.5f), 0.2f);
+
+
+                    }
+                }
+
+            }
+        }
+    }
 }

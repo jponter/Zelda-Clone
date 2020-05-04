@@ -7,6 +7,8 @@ public class PathLog : Enemy
 
     private int currentPathIndex;
     private List<Vector3> pathVectorList;
+    private List<intGridReference> currentGridList;
+    private List<intGridReference> oldGridList;
 
     [SerializeField] float distanceCheck;
     public Transform target;
@@ -19,7 +21,7 @@ public class PathLog : Enemy
     public Transform homePosition;
     public Vector2 gridsize;
     public bool active;
-
+    private PathNode lastNode = null;
 
 
     public  void Start()
@@ -127,14 +129,20 @@ public class PathLog : Enemy
             if(Vector3.Distance(transform.position, targetPosition) > distanceCheck)
             {
                 Debug.Log("within distance moving towards " + targetPosition);
-                Vector3 moveDir = (targetPosition - transform.position).normalized;
+                anim.SetBool("wakeUp", true);
+                ChangeState(enemyState.walk);
+               
+                Vector3 moveDir = (targetPosition - transform.position);
                 float distanceBefor = Vector3.Distance(transform.position, targetPosition);
+                
+                
+                
                 ChangeAnim(moveDir);
                 Vector3 temp = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
                 myRigidbody.MovePosition(temp);
 
-                ChangeState(enemyState.walk);
-                anim.SetBool("wakeUp", true);
+                
+                
             }
             else
             {
@@ -151,7 +159,10 @@ public class PathLog : Enemy
         else
         {
             //Debug.Log("Path is Null, sleeping");
+            myRigidbody.velocity = Vector2.zero;
+            myRigidbody.angularVelocity = 0.0f;
             anim.SetBool("wakeUp", false);
+            ChangeState(enemyState.idle);
         }
     }
 
@@ -159,11 +170,43 @@ public class PathLog : Enemy
 
 
     // Update is called once per frame
-    public  void FixedUpdate()
+    public void FixedUpdate()
     {
+        if (lastNode != null) lastNode.SetIsWalkable(true);
+
+        
+
+        //if (oldGridList != null)
+        //{
+        //    foreach (var gridRef in oldGridList)
+        //    {
+        //        lastNode = Pathfinding.Instance.GetNode(gridRef.x, gridRef.y);
+        //        lastNode.SetIsWalkable(true);
+        //    }
+        //}   
+        //set my current position to non walkable!
+             Pathfinding.Instance.GetGrid().GetXY(transform.position, out int x, out int y);
+
+        //get a list of close nodes
+
+        //if (active)
+        //{
+        //    currentGridList = Pathfinding.Instance.GetGrid().GetLocals(transform.position, 2.0f, 1.0f);
+
+        //    foreach (var gridRef in currentGridList)
+        //    {
+        //        lastNode = Pathfinding.Instance.GetNode(gridRef.x, gridRef.y);
+        //        lastNode.SetIsWalkable(false);
+
+        //    }
+
+        //    oldGridList = currentGridList;
+     
+        lastNode = Pathfinding.Instance.GetNode(x, y);
+        lastNode.SetIsWalkable(false);
         //Debug.Log("PathLog FixedUpdate");
         CheckDistance();
-
+        
         //get the path to the player
 
         //move towards the player via the path
@@ -266,7 +309,7 @@ public class PathLog : Enemy
     {
         direction = direction.normalized;
         anim.SetFloat("moveX", direction.x);
-        anim.SetFloat("moveX", direction.y);
+        anim.SetFloat("moveY", direction.y);
 
     }
 

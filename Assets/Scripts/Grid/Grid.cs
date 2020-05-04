@@ -5,7 +5,14 @@ using CodeMonkey.Utils;
 
 using System;
 
-public class Grid<TGridObject> 
+public class intGridReference
+{
+    public int x;
+    public int y;
+}
+
+
+public class Grid<TGridObject>
 {
     public const int HEAT_MAP_MAX_VALUE = 100;
     public const int HEAT_MAP_MIN_VALUE = 0;
@@ -19,18 +26,21 @@ public class Grid<TGridObject>
         public int y;
     }
 
+ 
+
     private int width, height;
-    
+
     float cellSize;
     Vector3 originPosition;
 
-    bool showDebug;
+    private bool showDebug;
+    private bool newDebug;
 
     private TGridObject[,] gridArray;
     private TextMesh[,] debugTextArray;
-    
 
-    public Grid(int width, int height, float cellSize, Vector3 originPosition, Func<Grid<TGridObject>,int, int, TGridObject> createGridObject, bool debug = false)
+
+    public Grid(int width, int height, float cellSize, Vector3 originPosition, Func<Grid<TGridObject>, int, int, TGridObject> createGridObject, bool debug = false)
     {
         this.width = width;
         this.height = height;
@@ -41,11 +51,11 @@ public class Grid<TGridObject>
 
         gridArray = new TGridObject[width, height];
 
-        for (int  x = 0;  x < gridArray.GetLength(0);  x++)
+        for (int x = 0; x < gridArray.GetLength(0); x++)
         {
             for (int y = 0; y < gridArray.GetLength(1); y++)
             {
-                gridArray[x, y] = createGridObject(this,x,y);
+                gridArray[x, y] = createGridObject(this, x, y);
             }
         }
 
@@ -84,7 +94,7 @@ public class Grid<TGridObject>
                 debugTextArray[eventArgs.x, eventArgs.y].text = gridArray[eventArgs.x, eventArgs.y]?.ToString();
             };
         }
-       
+
     }
 
     public int GetWidth()
@@ -112,6 +122,31 @@ public class Grid<TGridObject>
     {
         x = Mathf.FloorToInt((worldPosition - originPosition).x / cellSize);
         y = Mathf.FloorToInt((worldPosition - originPosition).y / cellSize);
+    }
+
+
+    public List<intGridReference> GetLocals(Vector3 worldPosition, float width, float height)
+    {
+        List<intGridReference> grids = new List<intGridReference>();
+
+        //take in a world position - given width and height using current cellsize return all grids in bounds as a list
+        //how many cells
+        int numberOfCellsX = Mathf.CeilToInt(width / cellSize);
+
+        int middleX, middleY;
+        GetXY(worldPosition, out middleX, out middleY);
+
+        //we have the grid for x in the middle we want numberofcellsX to the right
+        for (int x = 0; x < numberOfCellsX ; x++)
+        {
+            intGridReference gridReference = new intGridReference();
+            gridReference.x = middleX + x;
+            gridReference.y = middleY;
+            grids.Add(gridReference);
+        }
+
+
+        return grids;
     }
 
     public void DL (Vector3 pos1, Vector3 pos2, Color color, float duration, bool inFront)

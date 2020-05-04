@@ -9,7 +9,14 @@ public class Coin : Powerup
     // Start is called before the first frame update
     void Start()
     {
-        powerupSignal.Raise();
+        if (powerupSignal != null)
+        {
+            powerupSignal.Raise();
+        }
+        else
+        {
+            Debug.LogError("Coin.cs : powerUpSignal is null");
+        }
     }
 
     // Update is called once per frame

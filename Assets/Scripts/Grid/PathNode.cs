@@ -14,6 +14,7 @@ public class PathNode
     public int fCost;
 
     public bool isWalkable;
+    public bool isStatic;
 
     public PathNode cameFromNode;
 
@@ -34,6 +35,13 @@ public class PathNode
     {
         this.isWalkable = isWalkable;
         grid.TriggerGridObjectChanged(x, y);
+    }
+
+    public void SetStatic(bool isStatic) 
+    {
+        this.isStatic = isStatic;
+        grid.TriggerGridObjectChanged(x, y);
+
     }
 
     public override string ToString()
