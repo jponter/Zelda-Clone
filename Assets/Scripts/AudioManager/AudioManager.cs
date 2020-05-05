@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour, IGameManager
     [SerializeField] private AudioSource music2Source;
     //[SerializeField] private AudioSource music3Source;
 
-
+    //private static AudioManager instance;
 
     [SerializeField] private string introBGMusic;
     [SerializeField] private string levelBGMusic;
@@ -25,6 +25,8 @@ public class AudioManager : MonoBehaviour, IGameManager
 
     public float crossFadeRate = 1.5f;
     private bool _crossFading;
+
+    //private bool _firstPlay = true;
 
     //10.4 goes here
     public float soundVolume
@@ -98,7 +100,7 @@ public class AudioManager : MonoBehaviour, IGameManager
 
         status = ManagerStatus.Started;
 
-        
+       
 
     }
 
@@ -122,8 +124,12 @@ public class AudioManager : MonoBehaviour, IGameManager
         PlayMusic(Resources.Load("Music/" + dungeonBGMusic) as AudioClip);
     }
 
+
+
     public void PlayMusic(AudioClip clip)
     {
+        
+
         if (_crossFading) { return; }
         StartCoroutine(CrossFadeMusic(clip));
         //musicSource.clip = clip;

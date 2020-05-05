@@ -295,7 +295,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1211,8 +1211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundSource: {fileID: 0}
-  musicSource: {fileID: 1816700991}
-  music2Source: {fileID: 237611112}
+  musicSource: {fileID: 237611112}
+  music2Source: {fileID: 1816700991}
   introBGMusic: Title_Screen
   levelBGMusic: Town_Theme
   dungeonBGMusic: Time_Cave

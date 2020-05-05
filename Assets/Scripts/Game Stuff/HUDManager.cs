@@ -31,9 +31,12 @@ public class HUDManager : MonoBehaviour
 
     private void DisableHUD()
     {
-        MainHUD.SetActive(false);
-        Debug.Log("Setting HUD to disabled");
-        Debug.Log("Hud is active?: " + MainHUD.activeInHierarchy);
+        if (MainHUD)
+        {
+            MainHUD.SetActive(false);
+            Debug.Log("Setting HUD to disabled");
+            Debug.Log("Hud is active?: " + MainHUD.activeInHierarchy);
+        }
     }
 
     // Update is called once per frame

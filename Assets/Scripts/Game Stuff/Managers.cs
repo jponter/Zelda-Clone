@@ -20,11 +20,20 @@ public class Managers : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null) return;
+        if (instance == null)
+        {
+            instance = this;
+            Debug.Log("Starting Managers");
+        }
+        else
+        {
+            Destroy(this.gameObject);
+            return;
+        }
 
-        Debug.Log("Starting Managers");
+        
 
-        instance = this;
+        //instance = this;
 
         
         //Weather = GetComponent<WeatherManager>();
