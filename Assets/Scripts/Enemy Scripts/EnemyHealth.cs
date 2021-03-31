@@ -4,16 +4,19 @@ using UnityEngine;
 
 public class EnemyHealth : GenericHealth
 {
-   
+
 
     [Header("Death Stuff")]
     public GameObject deathEffect;
     [SerializeField] private float deathEffectDelay = 1f;
 
-    
+    [Header("Death Signals")]
+    public Signal roomSignal;
 
 
-    
+
+
+
 
     public override void Damage(float damage)
     {
@@ -21,13 +24,18 @@ public class EnemyHealth : GenericHealth
         if (currentHealth <= 0)
         {
             Die();
+            if (roomSignal != null)
+            {
+                roomSignal.Raise();
+                Debug.Log("EnemyHealth.cs: Death room signal raised");
+            }
         }
     }
 
-  
 
 
-   
+
+
 
     private void DeathEffect()
     {

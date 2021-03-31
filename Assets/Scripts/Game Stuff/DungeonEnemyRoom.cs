@@ -6,36 +6,39 @@ public class DungeonEnemyRoom : DungeonRoom
 {
 
     public Door[] doors;
+    public TreasureChest[] chests;
 
-    public SignalListener enemyUpdate;
+    //public SignalListener enemyUpdate;
     public Vector3 transportPlayer;
     public bool movePlayer;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        HideChests();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void CheckEnemies()
     {
+        Debug.LogWarning("Check Enemies Called");
         for (int i = 0; i < enemies.Length; i++)
         {
-            if (enemies[i].gameObject.activeInHierarchy ) 
+            if (enemies[i].gameObject.activeInHierarchy )
             {
                 //Debug.Log("enemy active: " + i);
-                return; 
+                return;
             }
 
         }
 
         OpenDoors();
+        ShowChests();
 
     }
 
@@ -54,6 +57,22 @@ public class DungeonEnemyRoom : DungeonRoom
         for (int i = 0; i < doors.Length; i++)
         {
             doors[i].Open(false);
+        }
+    }
+
+    public void HideChests()
+    {
+        for (int i = 0; i < chests.Length; i++)
+        {
+            chests[i].gameObject.SetActive(false);
+        }
+    }
+
+    public void ShowChests()
+    {
+        for (int i = 0; i < chests.Length; i++)
+        {
+            chests[i].gameObject.SetActive(true);
         }
     }
 
@@ -82,7 +101,7 @@ public class DungeonEnemyRoom : DungeonRoom
             virtualCamera.SetActive(true);
         }
 
-        
+
     }
 
     //public override void OnTriggerExit2D(Collider2D other)

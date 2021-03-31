@@ -16,9 +16,13 @@ public class AudioManager : MonoBehaviour, IGameManager
     [SerializeField] private string levelBGMusic;
     [SerializeField] private string dungeonBGMusic;
 
+    [SerializeField] private string swordSwing;
+
     public ManagerStatus status { get; private set; }
 
     private NetworkService _network;
+
+    private string sound;
 
     private AudioSource _activeMusic;
     private AudioSource _inactiveMusic;
@@ -50,6 +54,16 @@ public class AudioManager : MonoBehaviour, IGameManager
                 //music3Source.volume = _musicVolume;
             }
         }
+    }
+
+    public void Start()
+    {
+        GameEvents.instance.onSoundEvent += PlaySoundFX;
+    }
+
+    public void OnDisable()
+    {
+        GameEvents.instance.onSoundEvent -= PlaySoundFX ;
     }
 
     public bool musicMute
@@ -104,9 +118,23 @@ public class AudioManager : MonoBehaviour, IGameManager
 
     }
 
-    public void PlaySound(AudioClip clip)
+    public void PlaySound(AudioClip clip, float vol = 0.7f)
     {
-        soundSource.PlayOneShot(clip);
+        soundSource.PlayOneShot(clip, vol);
+    }
+
+    public void PlaySoundFX(string sfx, float volumeScale = 0.7f)
+    {
+        soundSource.PlayOneShot(Resources.Load("SFX/" + sfx) as AudioClip, volumeScale);
+    }
+
+    public void playSound(string sound)
+    {
+        if (sound != null)
+        {
+            Debug.Log("PlaySound Event: Sound = " + sound);
+            soundSource.PlayOneShot(Resources.Load("SFX/" + sound) as AudioClip, 1.0f);
+        }
     }
 
     public void PlayIntroMusic()

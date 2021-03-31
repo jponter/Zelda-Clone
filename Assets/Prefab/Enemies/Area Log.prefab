@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 7293524657570012420}
   - component: {fileID: 7293524657570012411}
   - component: {fileID: 7293524657570012542}
+  - component: {fileID: 8337478298343083407}
+  - component: {fileID: 8438603963788326104}
   m_Layer: 8
   m_Name: Area Log
   m_TagString: enemy
@@ -74,7 +76,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -348589811
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5034061168752090764, guid: 66de6dc8cb0aedb438a36fead7a18e7f,
     type: 3}
@@ -208,13 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
   enemyName: Allen Area Log
-  baseAttack: 1
   moveSpeed: 1
-  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
-    type: 3}
-  thisLoot: {fileID: 0}
   home: {x: 0, y: 0}
   currentState: 0
   roomSignal: {fileID: 0}
@@ -223,3 +220,34 @@ MonoBehaviour:
   attackRadius: 0.5
   homePosition: {fileID: 0}
   boundary: {fileID: 0}
+--- !u!114 &8337478298343083407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293524657570012419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8545386f9db72a441927b83633fcf7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  otherTag: Player
+--- !u!114 &8438603963788326104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7293524657570012419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3614d59645df1d94998a99368049b4cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
+  currentHealth: 2
+  deathEffect: {fileID: 8361741662772683391, guid: f4a50f605ac3aee408cc64dff6224a19,
+    type: 3}
+  deathEffectDelay: 1

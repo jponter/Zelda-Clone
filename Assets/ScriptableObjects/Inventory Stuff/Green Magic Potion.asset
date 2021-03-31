@@ -16,7 +16,7 @@ MonoBehaviour:
   itemDescription: Smells really bad, maybe that's good?
   itemImage: {fileID: -962538926945955799, guid: 2f0dc37382fc0c142822e07d098def78,
     type: 3}
-  numberHeld: 10
+  numberHeld: 12
   usable: 1
   unique: 0
   thisEvent:

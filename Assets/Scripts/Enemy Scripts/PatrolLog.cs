@@ -11,6 +11,9 @@ public class PatrolLog : Log
 
     public float roundingDistance = 0.2f;
 
+    public int waitSeconds = 2;
+    private bool waiting;
+
     // Update is called once per frame
     void Update()
     {
@@ -34,54 +37,66 @@ public class PatrolLog : Log
 
     public override void CheckDistance()
     {
-        if (player.activeSelf == true)
+        if (!waiting)
         {
-
-            if (Vector3.Distance(target.position, transform.position) <= chaseRadius
-                && Vector3.Distance(target.position, transform.position) > attackRadius)
+            if (player.activeSelf == true)
             {
 
-                if (currentState == enemyState.idle || currentState == enemyState.walk
-                    && currentState != enemyState.stagger)
+                if (Vector3.Distance(target.position, transform.position) <= chaseRadius
+                    && Vector3.Distance(target.position, transform.position) > attackRadius)
                 {
-                    Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
-                    ChangeAnim(temp - transform.position);
-                    myRigidbody.MovePosition(temp);
+                    if (currentState == enemyState.idle || currentState == enemyState.walk
+                        && currentState != enemyState.stagger)
+                    {
+                        Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+
+                        ChangeAnim(temp - transform.position);
+                        myRigidbody.MovePosition(temp);
 
 
-                    ChangeState(enemyState.walk);
-                    anim.SetBool("wakeUp", true);
+                        ChangeState(enemyState.walk);
+                        anim.SetBool("wakeUp", true);
 
+                    }
+                }
+                else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
+                {
+                    if (Vector3.Distance(transform.position, path[currentPoint].position) > roundingDistance)
+                    {
+
+
+
+                        //ChangeState(enemyState.idle);
+                        //anim.SetBool("wakeUp", false);
+                        Vector3 temp = Vector3.MoveTowards(transform.position, path[currentPoint].position, moveSpeed * Time.deltaTime);
+
+                        ChangeAnim(temp - transform.position);
+                        myRigidbody.MovePosition(temp);
+                    }
+                    else
+                    {
+                        ChangeGoal();
+                        //StartCoroutine(ChangeGoalWait(waitSeconds));
+                    }
                 }
             }
-            else if (Vector3.Distance(target.position, transform.position) > chaseRadius)
+            else
             {
-                if (Vector3.Distance(transform.position, path[currentPoint].position) > roundingDistance)
-                {
-
-
-
-                    //ChangeState(enemyState.idle);
-                    //anim.SetBool("wakeUp", false);
-                    Vector3 temp = Vector3.MoveTowards(transform.position, path[currentPoint].position, moveSpeed * Time.deltaTime);
-
-                    ChangeAnim(temp - transform.position);
-                    myRigidbody.MovePosition(temp);
-                }
-                else
-                {
-                    ChangeGoal();
-                }
+                ChangeState(enemyState.idle);
+                anim.SetBool("wakeUp", false);
+                myRigidbody.velocity = Vector2.zero;
             }
-        }
-        else
-        {
-            ChangeState(enemyState.idle);
-            anim.SetBool("wakeUp", false);
-            myRigidbody.velocity = Vector2.zero;
         }
     }
 
+    private IEnumerator ChangeGoalWait(int seconds)
+    {
+        waiting = true;
+        yield return new WaitForSeconds(seconds);
+        waiting = false;
+        ChangeGoal();
+
+    }
 
 }

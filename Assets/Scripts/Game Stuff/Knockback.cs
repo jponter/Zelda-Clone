@@ -20,6 +20,8 @@ public class Knockback : MonoBehaviour
         
         if (other.gameObject.CompareTag("breakable") && this.gameObject.CompareTag("PlayerWeapon"))
         {
+            //Managers.Audio.PlaySoundFX("smash",0.3f);
+            GameEvents.instance.Sound("smash",0.3f);
             other.GetComponent<Pot>().Smash();
         }
 

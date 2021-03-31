@@ -72,7 +72,9 @@ public class PlayerMovement : MonoBehaviour
         //Debug.LogWarning("PlayerMovement Tag is: " + this.gameObject.tag.ToString());
         //if (this.gameObject.CompareTag("Player")) Debug.LogWarning("This game object is tagged with Player!");
 
-    
+        
+
+
     }
 
     // Update is called once per frame
@@ -95,7 +97,9 @@ public class PlayerMovement : MonoBehaviour
             && currentState != PlayerState.stagger)
         {
             Debug.Log("Attack!");
-         
+            //play sound
+            //Managers.Audio.PlaySoundFX("sword");
+            GameEvents.instance.Sound("sword");
             StartCoroutine(AttackCo());
         }
         else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack

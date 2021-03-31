@@ -9418,9 +9418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
   enemyName: PathLog
-  baseAttack: 1
   moveSpeed: 1
   home: {x: 0, y: 0}
   currentState: 0
@@ -10650,6 +10648,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 264e30b2f4d528c4f9081823b775f55f,
         type: 2}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: orthographic size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5152682906392031495, guid: 540824e1852677c42b09c21b7679a64b,
+        type: 3}
+      propertyPath: m_ForceIntoRT
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5152682906392031497, guid: 540824e1852677c42b09c21b7679a64b,
         type: 3}
       propertyPath: m_Name
@@ -37377,6 +37405,16 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8626928569421904152, guid: e64797a082cae0841b6f2e38f5d52878,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626928569421904153, guid: e64797a082cae0841b6f2e38f5d52878,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8626928569421904155, guid: e64797a082cae0841b6f2e38f5d52878,
         type: 3}
       propertyPath: m_Name
@@ -37391,6 +37429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 8626928569421904158, guid: e64797a082cae0841b6f2e38f5d52878,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8626928569421904159, guid: e64797a082cae0841b6f2e38f5d52878,
         type: 3}
@@ -37570,6 +37613,49 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1502338993}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &1502338996
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502338994}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 4
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 1
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1503469425
 GameObject:
   m_ObjectHideFlags: 0
@@ -54297,7 +54383,8 @@ PrefabInstance:
       propertyPath: boundary
       value: 
       objectReference: {fileID: 464536982}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6004878757409252963, guid: d989268f85d534e43805462f2d4590ed, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d989268f85d534e43805462f2d4590ed, type: 3}
 --- !u!114 &1268815039107892426
 MonoBehaviour:
@@ -54644,9 +54731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
   enemyName: Pappy the Log
-  baseAttack: 1
   moveSpeed: 2
   home: {x: 0, y: 0}
   currentState: 0
@@ -54661,6 +54746,7 @@ MonoBehaviour:
   currentPoint: 0
   currentGoal: {fileID: 0}
   roundingDistance: 0.2
+  waitSeconds: 2
 --- !u!1001 &3592646833860304700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55067,9 +55153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  maxHealth: {fileID: 11400000, guid: 261d610908990354288565c7c7512bd8, type: 2}
   enemyName: PathLog
-  baseAttack: 1
   moveSpeed: 1
   home: {x: 0, y: 0}
   currentState: 0

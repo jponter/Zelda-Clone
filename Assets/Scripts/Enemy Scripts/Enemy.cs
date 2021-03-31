@@ -16,12 +16,12 @@ public class Enemy : MonoBehaviour
 {
 
     public float health;
-    public FloatValue maxHealth;
+    //public FloatValue maxHealth;
     public string enemyName;
-    public int baseAttack;
+    //public int baseAttack;
     public float moveSpeed;
-  
- 
+
+
     public Vector2 home;
     private bool setUp = true;
 
@@ -29,7 +29,7 @@ public class Enemy : MonoBehaviour
 
     [Header("Death Signals")]
     public Signal roomSignal;
-   
+
 
     public void Knock(Rigidbody2D myRigidbody, float knockTime)
     {
@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
         //TakeDamage(damage);
     }
 
-  
+
 
     private IEnumerator KnockCo(Rigidbody2D myRigidbody, float knockTime)
     {
@@ -55,13 +55,13 @@ public class Enemy : MonoBehaviour
     {
         transform.position = home;
         //Debug.Log("Setting back to home");
-        health = maxHealth.initialValue;
+        //health = maxHealth.initialValue;
         currentState = enemyState.idle;
     }
 
     private void Awake()
     {
-        health = maxHealth.initialValue;
+        //health = maxHealth.initialValue;
         //Debug.Log("Health set to " + health);
         if (setUp)
         {
@@ -69,10 +69,10 @@ public class Enemy : MonoBehaviour
             home = transform.position;
             //Debug.Log("Setting home position of enemy");
         }
-        
+
     }
 
-    
+
 
 
     private void TakeDamage(float damage)
@@ -85,16 +85,13 @@ public class Enemy : MonoBehaviour
 
             this.gameObject.SetActive(false);
 
-            if (roomSignal != null)
-            {
-                roomSignal.Raise();
-            }
-           
-            
+
+
+
         }
     }
 
-   
+
 
     public void Die()
     {
@@ -102,8 +99,8 @@ public class Enemy : MonoBehaviour
         //MakeLoot();
 
         this.gameObject.SetActive(false);
+        
 
-       
 
     }
 
@@ -133,12 +130,12 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
