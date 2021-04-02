@@ -12,10 +12,14 @@ public class DungeonEnemyRoom : DungeonRoom
     public Vector3 transportPlayer;
     public bool movePlayer;
 
+    public int mobsToKill;
+    int mobsRemain;
+
     // Start is called before the first frame update
     void Start()
     {
         HideChests();
+        mobsRemain = mobsToKill;
     }
 
     // Update is called once per frame
@@ -27,14 +31,22 @@ public class DungeonEnemyRoom : DungeonRoom
     public void CheckEnemies()
     {
         Debug.LogWarning("Check Enemies Called");
-        for (int i = 0; i < enemies.Length; i++)
-        {
-            if (enemies[i].gameObject.activeInHierarchy )
-            {
-                //Debug.Log("enemy active: " + i);
-                return;
-            }
+        //for (int i = 0; i < enemies.Length; i++)
+        //{
+        //    if (enemies[i].gameObject.activeInHierarchy )
+        //    {
+        //        //Debug.Log("enemy active: " + i);
+        //        return;
+        //    }
 
+        //}
+        mobsRemain--;
+        if (mobsRemain > 0)
+        {
+
+
+            Debug.Log("Mobs Remaining = " + mobsRemain);
+            return;
         }
 
         OpenDoors();
@@ -70,6 +82,7 @@ public class DungeonEnemyRoom : DungeonRoom
 
     public void ShowChests()
     {
+        Debug.Log("ShowChests()");
         for (int i = 0; i < chests.Length; i++)
         {
             chests[i].gameObject.SetActive(true);

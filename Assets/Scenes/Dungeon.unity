@@ -21841,6 +21841,16 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 2431443048049207336, guid: b7409e415157f2f4e9e16c22686d8d17,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1717998113
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431443048049207336, guid: b7409e415157f2f4e9e16c22686d8d17,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2431443048049207343, guid: b7409e415157f2f4e9e16c22686d8d17,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22522,6 +22532,7 @@ MonoBehaviour:
   - {fileID: 1869520785}
   transportPlayer: {x: 0, y: 2, z: 0}
   movePlayer: 1
+  mobsToKill: 3
 --- !u!114 &1610424266 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3828872978439792138, guid: d46a15c17cfde0d488213c23ddc0dc04,
@@ -23901,6 +23912,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TreasureChest (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431443048049207336, guid: b7409e415157f2f4e9e16c22686d8d17,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1717998113
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431443048049207336, guid: b7409e415157f2f4e9e16c22686d8d17,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2431443048049207343, guid: b7409e415157f2f4e9e16c22686d8d17,
         type: 3}
@@ -28702,7 +28723,7 @@ PrefabInstance:
     - target: {fileID: 5152682906392031492, guid: 540824e1852677c42b09c21b7679a64b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.5061455
+      value: -0.0037631989
       objectReference: {fileID: 0}
     - target: {fileID: 5152682906392031492, guid: 540824e1852677c42b09c21b7679a64b,
         type: 3}
@@ -28885,7 +28906,7 @@ PrefabInstance:
     - target: {fileID: 6309489944854892546, guid: d42a78434ab4b6e45a9973f9d004720d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.356146
+      value: 7.853763
       objectReference: {fileID: 0}
     - target: {fileID: 6309489944854892546, guid: d42a78434ab4b6e45a9973f9d004720d,
         type: 3}
